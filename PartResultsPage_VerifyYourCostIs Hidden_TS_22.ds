@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Your Cost"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;erteYd sc-jPVYhN&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;blnUqW sc-dPeOBy[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Your CostSort&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(113)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;erteYd sc-jPVYhN&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Your Cost$10.00List Price$12.00"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Your Cost$10.00List Price$12.00&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;jdkrt sc-eUOjGL[3]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(cell(&quot;hgLIdU sc-iKmDcA[4]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(cell(&quot;Your Cost$10.00List Price$12.00&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(129)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;jdkrt sc-eUOjGL[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;erteYd sc-jPVYhN&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Your Cost&quot;)))' selected='false'/>
+   <accessor type='click' value='span(19)' selected='false'/>
+   <accessor type='click' value='span(&quot;bpSDpP sc-fXywWY&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;erteYd sc-jPVYhN&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Your Cost&quot;)))' selected='false'/>
+   <accessor type='click' value='span(19)' selected='false'/>
+   <accessor type='click' value='span(&quot;bpSDpP sc-fXywWY&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Your Cost"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Your Cost[3]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(bold(&quot;Your Cost&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(44)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(bold(&quot;Your Cost&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;erteYd sc-jPVYhN&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Your Cost&quot;)))' selected='false'/>
+   <accessor type='click' value='span(19)' selected='false'/>
+   <accessor type='click' value='span(&quot;bpSDpP sc-fXywWY&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;erteYd sc-jPVYhN&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Your Cost&quot;)))' selected='false'/>
+   <accessor type='click' value='span(19)' selected='false'/>
+   <accessor type='click' value='span(&quot;bpSDpP sc-fXywWY&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='getText(span(&quot;Your Cost[3]&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='value' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Your Cost&quot;)' selected='true'/>
+   <accessor type='click' value='' selected='false'/>
+</dialect>
+</step>
+<step action='assertDoesNotContain' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertDoesNotContain' value='value' selected='true'/>
+   <accessor type='assertDoesNotContain' value='' selected='false'/>
+</dialect>
+</step>
+</testcase>

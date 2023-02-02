@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
+   <accessor type='click' value='div(29)' selected='false'/>
+   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;2010&quot;)' selected='true'/>
+   <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[13]&quot;)' selected='false'/>
+   <accessor type='click' value='div(206)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;HONDA&quot;)' selected='true'/>
+   <accessor type='click' value='div(213)' selected='false'/>
+   <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[18]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;CIVIC&quot;)' selected='true'/>
+   <accessor type='click' value='div(195)' selected='false'/>
+   <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;4-1799 1.8L SOHC&quot;)' selected='true'/>
+   <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[1]&quot;)' selected='false'/>
+   <accessor type='click' value='div(194)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Categories&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(&quot;emfKWT sc-bSakgD&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;imsmUn sc-cHPgQl&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;Categories&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(&quot;Categories&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(11)' selected='false'/>
+</dialect>
+</step>
+</testcase>
