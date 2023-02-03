@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/../CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/YMME_Lookup.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/../CommonSteps/YMME_Lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Change Location&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(span(&quot;dRqPwe sc-ZyMtA&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(span(&quot;Change Location&quot;)))' selected='false'/>
+   <accessor type='click' value='div(126)' selected='false'/>
+   <accessor type='click' value='div(&quot;hiKnSF sc-dbbhXq[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Change Location"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Change Location[2]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;cnHuKd sc-lbxAil&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Change Location[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(91)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;cnHuKd sc-lbxAil&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Select[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Select[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(94)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Location changed to: store 3[1]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;Location changed to: store 3&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(92)' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertNotNull' value='"3 at store 3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertNotNull' value='span(&quot;3 at store 3&quot;)' selected='true'/>
+   <accessor type='assertNotNull' value='span(&quot;dRqPwe fw-bold sc-ZyMtA&quot;)' selected='false'/>
+   <accessor type='assertNotNull' value='span(0, _in(div(&quot;jdkrt sc-eUOjGL[2]&quot;)))' selected='false'/>
+   <accessor type='assertNotNull' value='span(39)' selected='false'/>
+   <accessor type='assertNotNull' value='span(&quot;dRqPwe fw-bold sc-ZyMtA&quot;)' selected='false'/>
+   <accessor type='assertNotNull' value='span(0, _in(div(&quot;3 at store 3Change Location&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Change Location[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(span(&quot;dRqPwe sc-ZyMtA[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(span(&quot;Change Location[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(145)' selected='false'/>
+   <accessor type='click' value='div(&quot;hiKnSF sc-dbbhXq[6]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Select[3]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Select[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(96)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[3]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Location changed to: Store 5[1]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(92)' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(span(&quot;Location changed to: Store 5&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

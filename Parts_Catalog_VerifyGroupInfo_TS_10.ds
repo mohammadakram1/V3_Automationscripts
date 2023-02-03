@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/../CommonSteps/YMME_Lookup.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/YMME_Lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts &amp; Cooling&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts &amp; Cooling[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(13)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Belts&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[13]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;Belts[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(28)' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(28)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(0, _in(div(&quot;Electrical&quot;)))' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;fenFPL sc-fIavCj[5]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;Electrical[1]&quot;)' selected='false'/>
+   <accessor type='click' value='div(78)' selected='false'/>
+   <accessor type='click' value='div(&quot;gjcJWt sc-dFdIVH[5]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Tire &amp; Wheel&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Tire &amp; Wheel[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(23)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[11]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Electrical0/6[2]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;MuiFormControl-root lnnFDo sc-kTvvXX[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters gawKNX sc-grVGCS[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;Electrical0/6[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;Electrical0/6[2]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(159)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Alternators &amp; GeneratorsGFXBattery &amp; CablesGFXBeltsGFXChargi"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;MuiAccordionDetails-root ivzsUO sc-dvwKko[1]&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;lirhVe sc-evrZIY[2]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(168)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;lirhVe sc-evrZIY[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Types"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Part Types&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;emfKWT sc-bSakgD[2]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;imsmUn sc-cHPgQl[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Part Types&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(38)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;emfKWT sc-bSakgD[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>
