@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/PartsByNavigation.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Filter Results"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Filter Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;sc-hRwTwm yRhiV&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;evLqqz sc-dXxSUK&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(58)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;sc-hRwTwm yRhiV&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Primary&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;poNQz sc-ciZhAO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Primary[6]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(16)' selected='false'/>
+   <accessor type='click' value='span(&quot;kZHkil sc-jdAMXn&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Primary[7]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;kGqXZE sc-efBctP&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;PrimarySecondaryAll Lines[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(164)' selected='false'/>
+   <accessor type='click' value='div(&quot;dGfHQQ sc-iTONeN&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='verifyContains' value='"Alternator And Fan Belt"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='verifyContains' value='div(&quot;Alternator And Fan Belt[3]&quot;)' selected='true'/>
+   <accessor type='verifyContains' value='div(&quot;gSSjPl sc-kjkawG&quot;)' selected='false'/>
+   <accessor type='verifyContains' value='div(0, _in(div(&quot;doXOaB sc-cMlSiz&quot;)))' selected='false'/>
+   <accessor type='verifyContains' value='div(120)' selected='false'/>
+   <accessor type='verifyContains' value='div(&quot;gSSjPl sc-kjkawG&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Primary&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;poNQz sc-ciZhAO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Primary[6]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(16)' selected='false'/>
+   <accessor type='click' value='span(&quot;kZHkil sc-jdAMXn&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Secondary&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;dGfHQQ sc-iTONeN[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(1, _in(div(&quot;kGqXZE sc-efBctP&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(1, _in(div(&quot;PrimarySecondaryAll Lines[2]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(165)' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;dGfHQQ sc-iTONeN[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Secondary&quot;)' selected='true'/>
+   <accessor type='click' value='div(1, _in(div(&quot;kGqXZE sc-efBctP&quot;)))' selected='false'/>
+   <accessor type='click' value='div(1, _in(div(&quot;PrimarySecondaryAll Lines[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(165)' selected='false'/>
+   <accessor type='click' value='div(&quot;dGfHQQ sc-iTONeN[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='2000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Air Conditioning Compressor BeltCLASSICAL SECTION WRAPPED V-"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='cell(&quot;knRruy sc-ZyMtA[7]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='cell(&quot;knRruy sc-ZyMtA[7]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='cell(1, _in(row(&quot;dSdlPE sc-eRWnEp[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='cell(13)' selected='false'/>
+</dialect>
+</step>
+</testcase>

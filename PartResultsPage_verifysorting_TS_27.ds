@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/../CommonSteps/PartsByNavigation.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(&quot;Sort&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(20)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='click' value='span(20)' selected='false'/>
+   <accessor type='click' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Availability[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Availability[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(94)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Recommended"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Recommended&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(169)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Recommended&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(169)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Recommended[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Recommended&quot;)))' selected='false'/>
+   <accessor type='click' value='span(94)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Description (A-Z)&quot;)' selected='true'/>
+   <accessor type='click' value='div(1, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(170)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Description (A-Z)[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hOBXhy sc-NaKpO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Description (A-Z)[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(95)' selected='false'/>
+   <accessor type='click' value='span(&quot;iuGWvx sc-gdfmja&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Recommended&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(169)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='click' value='span(20)' selected='false'/>
+   <accessor type='click' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Recommended[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Recommended&quot;)))' selected='false'/>
+   <accessor type='click' value='span(94)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Description (Z-A)"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Description (Z-A)&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(171)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Description (Z-A)&quot;)' selected='true'/>
+   <accessor type='click' value='div(2, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(171)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Vehicle[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;hVmGSJ sc-cgFpzT[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Vehicle&quot;)))' selected='false'/>
+   <accessor type='click' value='div(29)' selected='false'/>
+   <accessor type='click' value='div(&quot;hepZOn sc-enyVUO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Change Vehicle&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Change Vehicle&quot;)))' selected='false'/>
+   <accessor type='click' value='span(18)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;hSwwnV sc-fisbwB&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;eoAqhB sc-jNXgPE&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(10)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;2014&quot;)' selected='true'/>
+   <accessor type='click' value='div(2014)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;HONDA&quot;)' selected='true'/>
+   <accessor type='click' value='div(218)' selected='false'/>
+   <accessor type='click' value='div(&quot;eUtkYA sc-hIpXjV[17]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;CIVIC&quot;)' selected='true'/>
+   <accessor type='click' value='div(200)' selected='false'/>
+   <accessor type='click' value='div(&quot;eUtkYA sc-hIpXjV[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;V6-2995 3.0L DOHC&quot;)' selected='true'/>
+   <accessor type='click' value='div(199)' selected='false'/>
+   <accessor type='click' value='div(&quot;eUtkYA sc-hIpXjV[1]&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;V6-3123 3.2L DOHC&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;V6-2995 3.2L DOHC&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Chassis &amp; Steering&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Chassis &amp; Steering[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(15)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[3]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Accessories&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Accessories[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(12)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Aerodynamic Accessories&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Aerodynamic Accessories[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(28)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Aerodynamic Accessories[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Aerodynamic Accessories[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(59)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;dcAXJ sc-brCFrO[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>
+   <accessor type='click' value='span(10)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='click' value='span(22)' selected='false'/>
+   <accessor type='click' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Description[3]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hOBXhy sc-NaKpO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Description[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(353)' selected='false'/>
+   <accessor type='click' value='span(&quot;iuGWvx sc-gdfmja&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Description (Z-A)&quot;)' selected='true'/>
+   <accessor type='click' value='div(2, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(326)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Description (Z-A)[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hOBXhy sc-NaKpO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Description (Z-A)[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(353)' selected='false'/>
+   <accessor type='click' value='span(&quot;iuGWvx sc-gdfmja&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Description (A-Z)&quot;)' selected='true'/>
+   <accessor type='click' value='div(1, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(325)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Description (A-Z)[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hOBXhy sc-NaKpO&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Description (A-Z)[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(353)' selected='false'/>
+   <accessor type='click' value='span(&quot;iuGWvx sc-gdfmja&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Part Number (Z-A)&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;lbNzzJ sc-KiOns[3]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(4, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(328)' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;lbNzzJ sc-KiOns[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Number (Z-A)&quot;)' selected='true'/>
+   <accessor type='click' value='div(4, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(328)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Number (Z-A)[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Number (Z-A)&quot;)))' selected='false'/>
+   <accessor type='click' value='span(352)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Brand (A-Z)"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Brand (A-Z)&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns[4]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(5, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(329)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;lbNzzJ sc-KiOns[4]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Brand (A-Z)&quot;)' selected='true'/>
+   <accessor type='click' value='div(5, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(329)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[4]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Cost (Low-High)[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Cost (Low-High)&quot;)))' selected='false'/>
+   <accessor type='click' value='span(356)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='click' value='span(22)' selected='false'/>
+   <accessor type='click' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Sort&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;pPfQU sc-iVxNgP[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Sort&quot;)))' selected='false'/>
+   <accessor type='click' value='span(20)' selected='false'/>
+   <accessor type='click' value='span(&quot;iqFSOW sc-eHAsqE[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Cost (Low-High)&quot;)))' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Cost (Low-High)[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(367)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Number (Z-A)&quot;)' selected='true'/>
+   <accessor type='click' value='div(4, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(328)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[4]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Part Number (Z-A)[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Part Number (Z-A)&quot;)))' selected='false'/>
+   <accessor type='click' value='span(356)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Cost (Low-High)&quot;)' selected='true'/>
+   <accessor type='click' value='div(7, _in(div(&quot;kYkjzw sc-bsixGQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(331)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[6]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Cost (Low-High)[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hOBXhy sc-NaKpO[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Cost (Low-High)[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(357)' selected='false'/>
+   <accessor type='click' value='span(&quot;iuGWvx sc-gdfmja[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Sort byBrand&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;czpOrA sc-cYmoNK&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Sort byBrandThen byCost (Low-High)[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(319)' selected='false'/>
+   <accessor type='click' value='div(&quot;blVdzG sc-hogtv&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Brand[2]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OUPCC sc-jlyluv&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Brand[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(352)' selected='false'/>
+   <accessor type='click' value='span(&quot;hOBXhy sc-NaKpO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;List (Low-High)[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(9, _in(div(&quot;kYkjzw sc-bsixGQ[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(348)' selected='false'/>
+   <accessor type='click' value='div(&quot;lbNzzJ sc-KiOns[20]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='image(&quot;Brand&quot;)' selected='true'/>
+   <accessor type='assertExists' value='image(&quot;eEyvhS sc-hlnMnd[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg&quot;)' selected='false'/>
+   <accessor type='assertExists' value='image(0, _in(div(&quot;ispfPS sc-jOhDuK[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='image(3)' selected='false'/>
+   <accessor type='assertExists' value='image(&quot;eEyvhS sc-hlnMnd[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Alternator And Fan Belt"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Alternator And Fan Belt[3]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;dSxALO sc-bcqIvW&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;jdkrt sc-eUOjGL&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(120)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;dSxALO sc-bcqIvW&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

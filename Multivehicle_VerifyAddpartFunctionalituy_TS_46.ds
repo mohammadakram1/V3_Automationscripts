@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the applocation with CGP' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/PartsByNavigation.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Add to Cart"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;jiAjgZ sc-dbbhXq&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(1, _in(div(&quot;doXOaB sc-cMlSiz[4]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(1, _in(div(&quot;Add to CartReport Lost Sale&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(134)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;jiAjgZ sc-dbbhXq&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(57)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;biyrCG jiVyVA sc-idiyUo sc-jFAcUc&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='path(24)' selected='true'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[17]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Changed store due to item availability"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span([&quot;Changed store due to item availabil&quot;])' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(100)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(89)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;biyrCG jiVyVA sc-idiyUo sc-jFAcUc&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;4[1]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;dZEscY sc-jmNpzm&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;fpHxbi sc-lkwKjF&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;4&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(17)' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;dZEscY sc-jmNpzm&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>
