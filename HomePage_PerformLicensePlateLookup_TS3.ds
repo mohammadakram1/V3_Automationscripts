@@ -4,16 +4,8 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='true'/>
-</dialect>
-</step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -40,10 +32,12 @@
 </step>
 <step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='div(&quot;iCvbWx sc-pCZmg&quot;)' selected='true'/>
-   <accessor type='assertExists' value='div(&quot;iCvbWx sc-pCZmg&quot;)' selected='false'/>
-   <accessor type='assertExists' value='div(0, _in(div(&quot;root&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='div(1)' selected='false'/>
+   <accessor type='assertExists' value='div(2, _in(div(&quot;Vehicle2003 VIBE[1]&quot;)))' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;kAIUmN sc-bwANAz&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(2, _in(div(&quot;exjXiz sc-jhfVAM&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(2, _in(div(&quot;Vehicle2003 VIBE[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;2003 VIBE&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(30)' selected='false'/>
 </dialect>
 </step>
 <step action='assertContainsText' value='"Parts Catalog"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

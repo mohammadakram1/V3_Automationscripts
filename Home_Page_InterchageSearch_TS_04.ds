@@ -4,7 +4,8 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='setValue' value='"51515"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
