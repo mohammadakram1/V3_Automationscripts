@@ -41,16 +41,6 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='assertExists' value='div(&quot;Results&quot;)' selected='true'/>
-   <accessor type='assertExists' value='div(&quot;filoAu sc-hEKtJR&quot;)' selected='false'/>
-   <accessor type='assertExists' value='div(0, _in(div(&quot;blnUqW sc-dPeOBy&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='div(0, _in(div(&quot;Results6 results&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='div(107)' selected='false'/>
-   <accessor type='assertExists' value='div(&quot;filoAu sc-hEKtJR&quot;)' selected='false'/>
-</dialect>
-</step>
 <step action='verifyContainsText' value='"Results"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='verifyContainsText' value='div(0, _in(div(&quot;Results6 results&quot;)))' selected='true'/>

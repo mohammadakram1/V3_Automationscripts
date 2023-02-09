@@ -4,16 +4,14 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -80,20 +78,20 @@
 <step action='assertContainsText' value='"Routing Diagram"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='div(&quot;Routing Diagram[4]&quot;)' selected='true'/>
-   <accessor type='assertContainsText' value='div(&quot;dSxALO sc-bcqIvW[21]&quot;)' selected='false'/>
-   <accessor type='assertContainsText' value='div(0, _in(div(&quot;jdkrt sc-eUOjGL[105]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;gSSjPl sc-kjkawG[15]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;doXOaB sc-cMlSiz[75]&quot;)))' selected='false'/>
    <accessor type='assertContainsText' value='div(0, _in(div(&quot;Routing Diagram[3]&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='div(571)' selected='false'/>
-   <accessor type='assertContainsText' value='div(&quot;dSxALO sc-bcqIvW[21]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(449)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;gSSjPl sc-kjkawG[15]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='verifyContains' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='div(&quot;Serpentine Belt[6]&quot;)' selected='true'/>
-   <accessor type='assertExists' value='div(&quot;dSxALO sc-bcqIvW[3]&quot;)' selected='false'/>
-   <accessor type='assertExists' value='div(0, _in(div(&quot;jdkrt sc-eUOjGL[15]&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='div(&quot;Serpentine Belt[6]&quot;)' selected='false'/>
-   <accessor type='assertExists' value='div(229)' selected='false'/>
+   <accessor type='verifyContains' value='div(&quot;Serpentine Belt[6]&quot;)' selected='true'/>
+   <accessor type='verifyContains' value='div(&quot;dSxALO sc-bcqIvW[3]&quot;)' selected='false'/>
+   <accessor type='verifyContains' value='div(0, _in(div(&quot;jdkrt sc-eUOjGL[15]&quot;)))' selected='false'/>
+   <accessor type='verifyContains' value='div(&quot;Serpentine Belt[6]&quot;)' selected='false'/>
+   <accessor type='verifyContains' value='div(229)' selected='false'/>
 </dialect>
 </step>
 </testcase>

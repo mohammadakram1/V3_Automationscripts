@@ -4,16 +4,8 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='true'/>
-</dialect>
-</step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -33,35 +25,68 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='svg(10)' selected='true'/>
-   <accessor type='click' value='svg(0, _in(div(&quot;gXaIfk sc-jOrMOR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
    <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[5]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;gXaIfk sc-jOrMOR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(10)' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='&quot;Vehicle Incomplete' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertContainsText' value='div(&quot;gtTNGS modal-header sc-dPyBCJ&quot;)' selected='true'/>
-   <accessor type='assertContainsText' value='div(&quot;gtTNGS modal-header sc-dPyBCJ&quot;)' selected='false'/>
-   <accessor type='assertContainsText' value='div(0, _in(div(&quot;modal-content&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='div(&quot;Vehicle Incomplete&quot;)' selected='false'/>
-   <accessor type='assertContainsText' value='div(185)' selected='false'/>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Vehicle Incomplete"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Vehicle Incomplete[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;gfUCWb h4 modal-title sc-bBXxYQ&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;gtTNGS modal-header sc-dPyBCJ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(186)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;gfUCWb h4 modal-title sc-bBXxYQ&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Vehicle Incomplete&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertExists' value='div(&quot;continue[1]&quot;)' selected='true'/>
    <accessor type='assertExists' value='div(1, _in(div(&quot;djQezw modal-footer sc-BeQoi&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='div(1, _in(div(&quot;continue&quot;)))' selected='false'/>
    <accessor type='assertExists' value='div(190)' selected='false'/>
    <accessor type='assertExists' value='div(1, _in(div(&quot;djQezw modal-footer sc-BeQoi&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(1, _in(div(&quot;continue&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(0, _in(button(&quot;fnbRyz sc-idiyUo&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;continue&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;continue&quot;)))' selected='false'/>
-   <accessor type='click' value='span(&quot;continue&quot;)' selected='false'/>
    <accessor type='click' value='span(101)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;fnbRyz sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"JGS8742"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Enter a plate number[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;egklwH sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;jvFlnY sc-llJcti&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[5]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;gXaIfk sc-jOrMOR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(10)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"2003 VIBE"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;Vehicle2003 VIBE[1]&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;kAIUmN sc-bwANAz&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;exjXiz sc-jhfVAM&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(30)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;kAIUmN sc-bwANAz&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;2003 VIBE&quot;)' selected='false'/>
 </dialect>
 </step>
 </testcase>

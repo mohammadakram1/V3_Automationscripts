@@ -35,14 +35,30 @@
    <accessor type='click' value='span(0, _in(div(&quot;izyknD sc-ikZpkk[2]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Brands"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='image(&quot;Brand&quot;)' selected='true'/>
-   <accessor type='assertExists' value='image(&quot;eEyvhS sc-hlnMnd[1]&quot;)' selected='false'/>
-   <accessor type='assertExists' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg&quot;)' selected='false'/>
-   <accessor type='assertExists' value='image(0, _in(div(&quot;ispfPS sc-jOhDuK[1]&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='image(3)' selected='false'/>
-   <accessor type='assertExists' value='image(&quot;eEyvhS sc-hlnMnd[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;Brands[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters gawKNX sc-grVGCS[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-gutters MuiAccordionSummary-root MuiButtonBase-root etQGCq hCFmdy ibpgzt sc-dkzDqf sc-iJkHyd sc-jnCuNW[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Brands&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(82)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters gawKNX sc-grVGCS[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Gates&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Gates[9]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(15)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;izyknD sc-ikZpkk[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(118)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;ispfPS sc-jOhDuK[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;dXTwnt sc-jVCNtP&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;ispfPS sc-jOhDuK[1]&quot;)' selected='false'/>
 </dialect>
 </step>
 </testcase>

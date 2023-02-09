@@ -4,16 +4,16 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;eoAqhB sc-jNXgPE&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(10)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -107,19 +107,19 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;next&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;next&quot;)))' selected='false'/>
-   <accessor type='click' value='span(&quot;next&quot;)' selected='false'/>
    <accessor type='click' value='span(87)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='assertContainsText' value='"Select GFX and Fitment Conditions"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertContainsText' value='span(0, _in(div(&quot;ekGDsT sc-bMthRQ&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;Select GFX and Fitment Conditions[1]&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='span(0, _in(div(&quot;ekGDsT sc-bMthRQ&quot;)))' selected='false'/>
    <accessor type='assertContainsText' value='span(0, _in(div(&quot;Select GFX and Fitment Conditions&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='span(&quot;Select GFX and Fitment Conditions[1]&quot;)' selected='false'/>
    <accessor type='assertContainsText' value='span(86)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;ekGDsT sc-bMthRQ&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -163,13 +163,13 @@
    <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"GFX Catalog"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='span(0, _in(div(&quot;GFX Catalog:  Body Components&quot;)))' selected='true'/>
-   <accessor type='assertExists' value='span(0, _in(div(&quot;fIhjiC sc-kdjpcd&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='span(&quot;GFX Catalog&quot;)' selected='false'/>
-   <accessor type='assertExists' value='span(12)' selected='false'/>
-   <accessor type='assertExists' value='span(0, _in(div(&quot;fIhjiC sc-kdjpcd&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;GFX Catalog&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;fIhjiC sc-kdjpcd&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(12)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;fIhjiC sc-kdjpcd&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;GFX Catalog:  Body Components&quot;)))' selected='false'/>
 </dialect>
 </step>
 </testcase>

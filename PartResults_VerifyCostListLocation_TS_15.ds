@@ -86,22 +86,38 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[1]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Location changed to: store 3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='span(&quot;Location changed to: store 3[1]&quot;)' selected='true'/>
-   <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='span(0, _in(span(&quot;Location changed to: store 3&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='span(&quot;Location changed to: store 3[1]&quot;)' selected='false'/>
-   <accessor type='assertExists' value='span(219)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Location changed to: store 3[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Location changed to: store 3&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(220)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='cell(&quot;Your Cost$10.00List Price$12.00&quot;)' selected='true'/>
-   <accessor type='assertExists' value='cell(&quot;hgLIdU sc-iKmDcA[4]&quot;)' selected='false'/>
-   <accessor type='assertExists' value='cell(4, _in(row(&quot;ktjljq sc-bnouOt&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='cell(10)' selected='false'/>
-   <accessor type='assertExists' value='cell(&quot;hgLIdU sc-iKmDcA[4]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==AddIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[14]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(span(&quot;jhKysE sc-hiMGwR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(19)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==RemoveIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[13]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(span(&quot;jhKysE sc-hiMGwR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(18)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='cell(&quot;Your Cost$10.00List Price$12.00&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='cell(&quot;hgLIdU sc-iKmDcA[4]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='cell(4, _in(row(&quot;ktjljq sc-bnouOt&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='cell(10)' selected='false'/>
+   <accessor type='assertContainsText' value='cell(&quot;hgLIdU sc-iKmDcA[4]&quot;)' selected='false'/>
 </dialect>
 </step>
 </testcase>

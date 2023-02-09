@@ -4,23 +4,16 @@
 <fallback useFallback='true'/>
 <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='div(188)' selected='true'/>
-   <accessor type='click' value='div(209, _in(body([&quot;You need to enable JavaScript to ru&quot;])))' selected='false'/>
-   <accessor type='click' value='div(&quot;fade jKitdy sc-bWijRQ show&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;eoAqhB sc-jNXgPE&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(10)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -45,13 +38,22 @@
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[3]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Parts CatalogShow Results"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertExists' value='span(&quot;GFX unavailable for this vehicle&quot;)' selected='true'/>
-   <accessor type='assertExists' value='span(0, _in(paragraph(&quot;jfitEy sc-jvLaUc&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='span(0, _in(paragraph(&quot;GFX unavailable for this vehicle&quot;)))' selected='false'/>
-   <accessor type='assertExists' value='span(26)' selected='false'/>
-   <accessor type='assertExists' value='span(0, _in(paragraph(&quot;jfitEy sc-jvLaUc&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;Parts CatalogShow Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;eksjOq sc-gYMRRK&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hSELRr sc-hZgfyJ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(46)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;eksjOq sc-gYMRRK&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"GFX unavailable for this vehicle"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;GFX unavailable for this vehicle&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;jfitEy sc-jvLaUc&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;GFX unavailable for this vehicle&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(26)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;jfitEy sc-jvLaUc&quot;)))' selected='false'/>
 </dialect>
 </step>
 </testcase>
