@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='navigateTo' value='"https://qa.pro.myplace4parts.com/#/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"aw000mcarr"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==username[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;egklwH sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;ikcWVz sc-llJcti&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"654321"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;placeholder==password[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;egklwH sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(span(&quot;ikcWVz sc-llJcti[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Go&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Go&quot;)))' selected='false'/>
+   <accessor type='click' value='span(4)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[33]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;gtTNGS modal-header sc-dPyBCJ&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(41)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"51515"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Separate multiple part #s with spaces[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;data-testid==input[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;kszNBl sc-hbjaKc[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;fTPVwN sc-kTGBUR[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[3]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;fTPVwN sc-kTGBUR[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(6)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Alternate for"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Alternate for&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;grSYYI mt-3 sc-jfmDQi&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Alternate for 61515&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(93)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;grSYYI mt-3 sc-jfmDQi&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"SPIN-ON LUBE FLT"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;SPIN-ON LUBE FLT&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;VejlA sc-kjkawG&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;doXOaB sc-cMlSiz[5]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(216)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;VejlA sc-kjkawG&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='getText(div(&quot;SPIN-ON LUBE FLT&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='value' selected='true'/>
+</dialect>
+</step>
+<step action='verifyDoesNotContainText' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='verifyDoesNotContainText' value='span(&quot;Interchange&quot;)' selected='true'/>
+</dialect>
+</step>
+</testcase>

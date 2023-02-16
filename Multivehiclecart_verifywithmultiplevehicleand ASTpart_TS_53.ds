@@ -80,8 +80,9 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='path(10)' selected='true'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
    <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)))' selected='false'/>
+   <accessor type='click' value='path(10)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -186,8 +187,9 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='path(2)' selected='true'/>
+   <accessor type='click' value='svg(&quot;data-testid==ShoppingCartIcon&quot;)' selected='true'/>
    <accessor type='click' value='path(0, _in(svg(&quot;CedCS MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-dUWWNf sc-eCYdqJ&quot;)))' selected='false'/>
+   <accessor type='click' value='path(2)' selected='false'/>
 </dialect>
 </step>
 <step action='assertContainsText' value='"2014 HONDA CIVIC"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -311,8 +313,9 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='path(2)' selected='true'/>
+   <accessor type='click' value='svg(&quot;data-testid==ShoppingCartIcon&quot;)' selected='true'/>
    <accessor type='click' value='path(0, _in(svg(&quot;CedCS MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-dUWWNf sc-eCYdqJ&quot;)))' selected='false'/>
+   <accessor type='click' value='path(2)' selected='false'/>
 </dialect>
 </step>
 <step action='assertContainsText' value='"Engine oil filter"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -352,19 +355,46 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(&quot;ORDER THIS CART&quot;)' selected='true'/>
-   <accessor type='click' value='span(0, _in(submit(&quot;ORDER THIS CART&quot;)))' selected='false'/>
-   <accessor type='click' value='span(67)' selected='false'/>
-   <accessor type='click' value='span(0, _in(submit(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Order all carts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;fSTVrk jiVyVA sc-idiyUo sc-jNxMLV&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Order all carts&quot;)))' selected='false'/>
+   <accessor type='click' value='span(142)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;order-button&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"Order ConfirmationYour Cost"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Order Confirmation"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='assertContainsText' value='div(&quot;Order ConfirmationYour Cost&quot;)' selected='true'/>
-   <accessor type='assertContainsText' value='div(&quot;edcUAh sc-kYVzmP&quot;)' selected='false'/>
-   <accessor type='assertContainsText' value='div(1, _in(div(&quot;ciPfdY sc-cFUAtS&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='div(78)' selected='false'/>
-   <accessor type='assertContainsText' value='div(&quot;edcUAh sc-kYVzmP&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Order Confirmation&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;dtjrUi sc-jlUHHR&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;Order Confirmation&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(32)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;dtjrUi sc-jlUHHR&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"View Order Details"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;View Order Details&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;View Order Details&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(73)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;View Order Details&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;View Order Details&quot;)))' selected='false'/>
+   <accessor type='click' value='span(73)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Order Details"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Order Details&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;gWIaWL sc-iulJQu&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;Order Details&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(32)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;gWIaWL sc-iulJQu&quot;)))' selected='false'/>
 </dialect>
 </step>
 </testcase>

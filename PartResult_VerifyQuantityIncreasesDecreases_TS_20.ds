@@ -39,9 +39,9 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='div(194)' selected='true'/>
-   <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[1]&quot;)' selected='false'/>
-   <accessor type='click' value='div(&quot;4-1799 1.8L SOHC&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;4-1998 2.0L DOHC[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(130)' selected='false'/>
+   <accessor type='click' value='div(&quot;eUtkYA sc-hIpXjV[2]&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -117,12 +117,6 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='path(22)' selected='true'/>
-   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[17]&quot;)))' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;data-testid==RemoveIcon[1]&quot;)' selected='true'/>
    <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[15]&quot;)' selected='false'/>
    <accessor type='click' value='svg(0, _in(span(&quot;jhKysE sc-hiMGwR[1]&quot;)))' selected='false'/>
@@ -131,16 +125,10 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='path(21)' selected='true'/>
-   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[16]&quot;)))' selected='false'/>
-</dialect>
-</step>
-<step action='assertContainsText' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='assertContainsText' value='textbox(3)' selected='true'/>
-   <accessor type='assertContainsText' value='textbox(&quot;kpeCXC sc-ehmTmK[1]&quot;)' selected='false'/>
-   <accessor type='assertContainsText' value='textbox(0, _in(span(&quot;hRRgoU sc-lbOyJj[1]&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='textbox(&quot;kpeCXC sc-ehmTmK[1]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==AddIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[14]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(span(&quot;jhKysE sc-hiMGwR&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(19)' selected='false'/>
 </dialect>
 </step>
 </testcase>
