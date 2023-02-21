@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the apploication' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile2.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile2.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/LoginfileForRecentVehicles.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"engine oil"' type='web' desc='enters all product search text value' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search Part #, Brand, or Part Name[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;data-testid==input[0]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;iaEYVN sc-hbyLVd&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;hhJLMO sc-gfbRpc&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[2]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;hhJLMO sc-gfbRpc&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Results"' type='web' desc='verify the results' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jcvtzM sc-hJEwCo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Results&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(70)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jcvtzM sc-hJEwCo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='" "' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search Part #, Brand, or Part Name[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Recent Searches"' type='web' desc='verifying the recent serach text  showing as suggesrtion' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Recent Searches&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;hmKPbe sc-fFtkDt&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;Recent Searches&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(6)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;hmKPbe sc-fFtkDt&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='verifying searched element' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='span(&quot;Engine Oil&quot;)' selected='true'/>
+   <accessor type='assertExists' value='span(&quot;eAhxjN sc-dZeWys&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(1, _in(div(&quot;eLCOAT sc-ihNHHr&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(1, _in(div(&quot;Recent SearchesEngine Oil[2]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='span(&quot;Engine Oil&quot;)' selected='false'/>
+   <accessor type='assertExists' value='span(7)' selected='false'/>
+</dialect>
+</step>
+</testcase>

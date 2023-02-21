@@ -200,13 +200,4 @@
    <accessor type='assertContainsText' value='div(&quot;koIGYr sc-jLFzpH&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"View Order Details"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='assertContainsText' value='span(&quot;View Order Details&quot;)' selected='true'/>
-   <accessor type='assertContainsText' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='span(0, _in(button(&quot;View Order Details&quot;)))' selected='false'/>
-   <accessor type='assertContainsText' value='span(73)' selected='false'/>
-   <accessor type='assertContainsText' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
-</dialect>
-</step>
 </testcase>

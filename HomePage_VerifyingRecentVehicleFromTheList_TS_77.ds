@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/LoginfileForRecentVehicles.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile2.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile2.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;2017 HONDA CIVIC&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Nzqzv sc-dTQRDE[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;2017 HONDA CIVIC[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(42)' selected='false'/>
+   <accessor type='click' value='span(&quot;iAhZUM sc-vmsFN[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"2017 CIVIC selected"' type='web' desc='verify user able to land on CGP page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;2017 CIVIC selected[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;kVhxpg sc-lbOyJj&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;2017 CIVIC selected&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(43)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;kVhxpg sc-lbOyJj&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts &amp; Cooling&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts &amp; Cooling[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(26)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iebRkw sc-HzFiz&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(42)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iebRkw sc-HzFiz[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(53)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;eGxZTK sc-HzFiz[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Results"' type='web' desc='verify the CGP selection completion' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jcvtzM sc-hJEwCo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Results&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(37)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jcvtzM sc-hJEwCo&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>
