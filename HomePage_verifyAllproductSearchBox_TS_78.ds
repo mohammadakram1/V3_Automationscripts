@@ -36,15 +36,18 @@
    <accessor type='assertContainsText' value='span(0, _in(div(&quot;jcvtzM sc-hJEwCo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='3000, isVisible(textbox(&quot;data-testid==input[0]&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='setValue' value='" "' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='focus' value='"belts"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;placeholder==Search Part #, Brand, or Part Name[0]&quot;)' selected='true'/>
-   <accessor type='setValue' value='' selected='false'/>
+   <accessor type='focus' value='textbox(&quot;data-testid==input[0]&quot;)' selected='true'/>
+   <accessor type='focus' value='textbox(&quot;iaEYVN sc-hbyLVd&quot;)' selected='false'/>
+   <accessor type='focus' value='textbox(0, _in(div(&quot;hhJLMO sc-gfbRpc&quot;)))' selected='false'/>
+   <accessor type='focus' value='textbox(0)' selected='false'/>
+   <accessor type='focus' value='textbox(&quot;placeholder==Search Part #, Brand, or Part Name[0]&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='assertContainsText' value='"Recent Searches"' type='web' desc='verifying the recent serach text  showing as suggesrtion' isThinkTime='false' isCommented='false' sequence='0'>
