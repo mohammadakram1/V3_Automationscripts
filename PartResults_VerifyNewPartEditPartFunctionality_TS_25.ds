@@ -2,7 +2,7 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='include' value='' type='web' desc='navigates to the part result page' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
    <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/YMME_Lookup.ds"' selected='false'/>
@@ -10,7 +10,7 @@
    <accessor type='include' value='"{ds}/../CommonSteps/PartsByNavigation.ds"' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on new parts option on results page' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;New Parts&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;New Parts&quot;)))' selected='false'/>
@@ -18,7 +18,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;bfmjRg sc-egNfGp&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='select categories' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Belts &amp; Cooling&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Belts &amp; Cooling[2]&quot;)))' selected='false'/>
@@ -34,7 +34,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[14]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='select group' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;Hoses0/4[2]&quot;)' selected='true'/>
    <accessor type='click' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters gawKNX sc-grVGCS[1]&quot;)))' selected='false'/>
@@ -61,7 +61,7 @@
    <accessor type='click' value='div(&quot;MuiFormControl-root lnnFDo sc-kTvvXX[1]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='select group types' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Hoses[1]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Hoses[3]&quot;)))' selected='false'/>
@@ -69,7 +69,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;dcAXJ sc-brCFrO[1]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on show results button' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>
@@ -77,7 +77,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on edit parts option' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Edit Parts&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Edit Parts&quot;)))' selected='false'/>
@@ -101,7 +101,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[5]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='select categories' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Body Components&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Body Components[1]&quot;)))' selected='false'/>
@@ -109,7 +109,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[14]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='select group' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Alternators &amp; Generators&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Alternators &amp; Generators[1]&quot;)))' selected='false'/>
@@ -117,7 +117,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[25]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='select part types' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Alternators &amp; Generators[1]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Alternators &amp; Generators[3]&quot;)))' selected='false'/>
@@ -125,7 +125,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;dcAXJ sc-brCFrO[4]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on show result button' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>
@@ -142,7 +142,7 @@
    <accessor type='verifyContains' value='span(10)' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"Parts Catalog:"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Parts Catalog:"' type='web' desc='verify the user reaches on parts catalog page' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='heading3(&quot;Parts Catalog:&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='heading3(&quot;hSgykL iVvqqm sc-bGWzfD sc-gDeeJ&quot;)' selected='false'/>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='completes the CGP lookup' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/VIN_CGP_lookup.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/VIN_Vehicle_lookup.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/VIN_Vehicle_lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on specification option on results page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Specifications&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;jsWRPM sc-kdjpcd&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Specifications&quot;)))' selected='false'/>
+   <accessor type='click' value='span(25)' selected='false'/>
+   <accessor type='click' value='span(&quot;blLPBu sc-fmlCPO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Specification"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Specification&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jFVolH sc-fbHdRr&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Specification&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Specification&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(322)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Hoses[1]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;btPwNN sc-bSPOJN&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;MuiGrid-item MuiGrid-root fCUNLZ sc-gzzPqb&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;Hoses&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;Hoses[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(337)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Front Brake Hardware[1]&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;btPwNN sc-bSPOJN[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;MuiGrid-item MuiGrid-root fCUNLZ sc-gzzPqb[1]&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(div(&quot;Front Brake Hardware&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;Front Brake Hardware[1]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(339)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"engine"' type='web' desc='enter &apos;engine&apos; in the search box' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search specifications[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;gfgfJM sc-fGeoif&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;jmgAct sc-dZlGJO&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(11)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Engine Filters &amp; PCV"' type='web' desc='verify the specification drawer is opened' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Engine Filters &amp; PCV[2]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;cAmVgI sc-jbcVfm&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters jYupWZ sc-dvwKko[3]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Engine Filters &amp; PCV[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;Engine Filters &amp; PCV[2]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(348)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='select the check box' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div([&quot;sc-ikZpkk izyknD&quot;],leftOf(span([&quot;CAF BEHIND GLV CMP&quot;]))) ' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;checkbox-wrapper kRXsBn sc-kLLXSd[9]&quot;)))' selected='false'/>
+   <accessor type='click' value='byClassName([&quot;sc-jIZahH uWfMV&quot;],leftOf(span([&quot;CAF BEHIND GLV CMP&quot;])))' selected='false'/>
+   <accessor type='click' value='div(&quot;sc-jIZahH uWfMV])[9]&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;sc-jIZahH uWfMV)[9]&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;fbHqXd sc-jIZahH&quot;)' selected='false'/>
+   <accessor type='click' value='div(358)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeSmall MuiSvgIcon-root hQCDrQ sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;btPwNN sc-bSPOJN&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;Hoses[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(47)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='deleting the existing specifications' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeSmall MuiSvgIcon-root hQCDrQ sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;btPwNN sc-bSPOJN&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;Hoses[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(47)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on Apply flter' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Apply Result Filter[1]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;MuiGrid-grid-xs-7 MuiGrid-item MuiGrid-root ftBeDF gzjMDq sc-gzzPqb sc-huileQ&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Apply Result Filter&quot;)))' selected='false'/>
+   <accessor type='click' value='div(336)' selected='false'/>
+   <accessor type='click' value='div(&quot;fIBMik sc-jTzYdg&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Tire &amp; wheel"' type='web' desc='enters &apos;tire &amp; wheel&apos; in the specification search box' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search specifications[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;gfgfJM sc-fGeoif&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;jmgAct sc-dZlGJO&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='selct the check box' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div([&quot;sc-ikZpkk izyknD&quot;],leftOf(span([&quot;INFLATION&quot;]))) ' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;checkbox-wrapper kRXsBn sc-kLLXSd[9]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;fbHqXd sc-jIZahH&quot;)' selected='false'/>
+   <accessor type='click' value='div(358)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='click on add to cart button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart[9]&quot;)' selected='true'/>
+   <accessor type='click' value='span(1, _in(button(&quot;1Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(351)' selected='false'/>
+   <accessor type='click' value='span(1, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

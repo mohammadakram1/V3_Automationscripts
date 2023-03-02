@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='navigateTo' value='"https://qa.pro.myplace4parts.com/#/login"' type='web' desc='Navigates to the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"aa999jsmith"' type='web' desc='enter username' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==username[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;egklwH sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;ikcWVz sc-llJcti&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"123456"' type='web' desc='enter password' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;placeholder==password[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;egklwH sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(span(&quot;ikcWVz sc-llJcti[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on the GO button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Go&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(div(&quot;gLFUQt sc-bMthRQ&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Sign InGo[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0)' selected='false'/>
+   <accessor type='click' value='button(&quot;jiVyVA sc-idiyUo&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='2000,isVisible(span(&quot;View Details&quot;))' type='web' desc='wait for the visibility of the element' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='2000,isVisible(span(&quot;View Details&quot;))' selected='true'/>
+   <accessor type='wait' value='2000, isVisible()' selected='false'/>
+   <accessor type='wait' value='2000, isVisible(span(&quot;View Details&quot;))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"View Details"' type='web' desc='click on view details button of promo page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;View Details&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;View Details&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(85)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;View Details&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;View Details&quot;)))' selected='false'/>
+   <accessor type='click' value='span(85)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"Hawaii Getaway 2023"' type='web' desc='switch to the next window' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='image(&quot;https://www.hawaiigetaway2023.com/images/av-btb-combowordmark-w500.png&quot;)' selected='true'/>
+   <accessor type='assertExists' value='image(&quot;https://www.hawaiigetaway2023.com/images/av-btb-combowordmark-w500.png&quot;)' selected='false'/>
+   <accessor type='assertExists' value='image(0, _in(link(&quot;navbar-brand&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='image(0)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='link(&quot;navbar-brand&quot;)' selected='true'/>
+   <accessor type='assertExists' value='link(&quot;navbar-brand&quot;)' selected='false'/>
+   <accessor type='assertExists' value='link(&quot;/&quot;)' selected='false'/>
+   <accessor type='assertExists' value='link(0, _in(div(&quot;container&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='link(0)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Home"' type='web' desc='verify user reaches to the home page of promo website' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='link(&quot;Home&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;/[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;active nav-item&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;Home&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(1)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

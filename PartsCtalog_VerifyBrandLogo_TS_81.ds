@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='navigates to the parts results page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/PartsByNavigation.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Alternator And Fan Belt"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Alternator And Fan Belt[3]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;ctTxoN sc-dAKPfc&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;lmPbbB sc-htiqpR&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(121)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;ctTxoN sc-dAKPfc&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='4000,isVisible(image(&quot;Brand&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='image(&quot;Brand&quot;)' selected='true'/>
+   <accessor type='click' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg&quot;)' selected='false'/>
+   <accessor type='click' value='image(0, _in(div(&quot;PEdyU sc-GVOUr[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='image(3)' selected='false'/>
+   <accessor type='click' value='image(&quot;fljqNw sc-fXynhf[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW kCgwPg sc-eCYdqJ sc-hhfWkW&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;bqoamp sc-gvSjmx&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;Gates[10]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(24)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on brands links' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='image(&quot;Brand&quot;)' selected='true'/>
+   <accessor type='click' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg&quot;)' selected='false'/>
+   <accessor type='click' value='image(0, _in(div(&quot;PEdyU sc-GVOUr[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='image(3)' selected='false'/>
+   <accessor type='click' value='image(&quot;fljqNw sc-fXynhf[1]&quot;)' selected='false'/>
+   <accessor type='click' value='img(&quot;Brand&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Home Page"' type='web' desc='verify Brand Home page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Home Page&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hGyQJN sc-bcqIvW&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Home PageGo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(178)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Contact Information"' type='web' desc='verify Brand contact information page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Contact Information&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hGyQJN sc-bcqIvW[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Contact InformationGo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(180)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"New Products Page"' type='web' desc='verify Brand new product page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;New Products Page&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[2]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hGyQJN sc-bcqIvW[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;New Products PageGo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(182)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"News &amp; MediaGo"' type='web' desc='verify Brand Home news and media' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;News &amp; MediaGo&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;hGyQJN sc-bcqIvW[3]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(6, _in(div(&quot;lduGWM sc-eUOjGL&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(183)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;hGyQJN sc-bcqIvW[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;MuiDrawer-modal MuiDrawer-root MuiModal-root grkzNK hwQeac sc-fVLGaz sc-ftvSup&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;MuiBackdrop-root dcCGwJ kvFTZf sc-iBkjds sc-papXJ&quot;)' selected='false'/>
+   <accessor type='click' value='div(163)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='close the drawer window' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='image(&quot;Brand[1]&quot;)' selected='true'/>
+   <accessor type='click' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg[1]&quot;)' selected='false'/>
+   <accessor type='click' value='image(0, _in(div(&quot;PEdyU sc-GVOUr[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='image(5)' selected='false'/>
+   <accessor type='click' value='image(&quot;fljqNw sc-fXynhf[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Resources Page"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Resources Page&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[4]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hGyQJN sc-bcqIvW[4]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Resources PageGo&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(186)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;bLahUr sc-eRWnEp[4]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div(&quot;Resources PageGo&quot;)' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;hGyQJN sc-bcqIvW[4]&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(8, _in(div(&quot;lduGWM sc-eUOjGL&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(&quot;Resources PageGo&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(185)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='svg(&quot;data-testid==CloseIcon&quot;)' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW kCgwPg sc-eCYdqJ sc-hhfWkW&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;bqoamp sc-gvSjmx&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;Gates[10]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(25)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='image(&quot;Brand&quot;)' selected='true'/>
+   <accessor type='click' value='image(&quot;https://s3.amazonaws.com/aapa.image.store/brand/BBSC--logo-100-US_en.jpg&quot;)' selected='false'/>
+   <accessor type='click' value='image(0, _in(div(&quot;PEdyU sc-GVOUr[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='image(3)' selected='false'/>
+   <accessor type='click' value='image(&quot;fljqNw sc-fXynhf[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==CloseIcon&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation MuiPaper-elevation16 MuiPaper-root cEVXlZ hZXPAX sc-fSTJYd sc-gKXOVf&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;feWKQQ sc-jmQrGM&quot;)' selected='false'/>
+   <accessor type='click' value='div(166)' selected='false'/>
+</dialect>
+</step>
+</testcase>

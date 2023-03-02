@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Navigates to the Parts Results Page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on add to cart button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(58)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;iuCKBP jiVyVA sc-cYmoNK sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='Clicks on shoppin cart icon' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==ShoppingCartIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;BEdZQ MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-ESujJ sc-eCYdqJ&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(button(&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium hqxVAB ibpgzt sc-dkzDqf sc-hKMtZM[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(2)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"HawaiiGetaway Giveaway"' type='web' desc='Verify promo is viisble' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;HawaiiGetaway Giveaway&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;foqerY sc-iPTsoC&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;gGGXUn sc-iVxNgP&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(161)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;foqerY sc-iPTsoC&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"on this order for an automatic entry."' type='web' desc='verify promo add on cart page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span([&quot;on this order for an automatic entr&quot;])' selected='true'/>
+   <accessor type='assertContainsText' value='span(1, _in(paragraph(&quot;iIIvja sc-gnyVkE&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(94)' selected='false'/>
+   <accessor type='assertContainsText' value='span(1, _in(paragraph(&quot;iIIvja sc-gnyVkE&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on promo link' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Giveaway&quot;)' selected='true'/>
+   <accessor type='click' value='span(92)' selected='false'/>
+   <accessor type='click' value='span(0, _in(paragraph(&quot;HawaiiGetaway Giveaway&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;here[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(97)' selected='false'/>
+   <accessor type='click' value='span(0, _in(link(&quot;here&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"Hawaii Getaway 2023"' type='web' desc='navigates to the other window' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Official Rules"' type='web' desc='verify user reaches on promo website' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='link(&quot;Official Rules&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;/rules&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;nav-item&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;Official Rules&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(2)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Home&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;/[1]&quot;)' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;active nav-item&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;Home&quot;)))' selected='false'/>
+   <accessor type='click' value='link(1)' selected='false'/>
+   <accessor type='click' value='link(&quot;nav-link&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Home"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='link(&quot;Home&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;/[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;active nav-item&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(0, _in(listItem(&quot;Home&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='link(1)' selected='false'/>
+   <accessor type='assertContainsText' value='link(&quot;nav-link&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

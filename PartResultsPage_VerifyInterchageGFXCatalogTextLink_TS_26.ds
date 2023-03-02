@@ -2,22 +2,19 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='true'/>
-   <accessor type='include' value='' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='clicks on search icon' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='div(&quot;Add Vehicle[1]&quot;)' selected='true'/>
-   <accessor type='click' value='div(0, _in(div(&quot;kPAmdQ sc-hbjaKc[1]&quot;)))' selected='false'/>
-   <accessor type='click' value='div(0, _in(div(&quot;Add Vehicle&quot;)))' selected='false'/>
-   <accessor type='click' value='div(29)' selected='false'/>
-   <accessor type='click' value='div(&quot;cLNzBe sc-ekGZSs&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='perform YMME lookup' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;2010&quot;)' selected='true'/>
    <accessor type='click' value='div(206)' selected='false'/>
@@ -79,7 +76,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on Interchange text link' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Interchange[1]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Interchange[2]&quot;)))' selected='false'/>
@@ -87,7 +84,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;hiKnSF sc-dbbhXq&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"Your search returned no results"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Your search returned no results"' type='web' desc='verify interchange searched results' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='span(&quot;Your search returned no results&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='span(&quot;dXqtlN sc-hogtv&quot;)' selected='false'/>
@@ -112,7 +109,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on Show results button' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>
@@ -120,7 +117,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='Clicks on GFX Catalog icon' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;GFX Catalog&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;GFX Catalog&quot;)))' selected='false'/>
@@ -136,7 +133,7 @@
    <accessor type='click' value='div(&quot;kHfGaj sc-iIPllB&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='Select fitment conditions' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;next&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;next&quot;)))' selected='false'/>
@@ -174,7 +171,7 @@
    <accessor type='click' value='radio(&quot;fIpBHh sc-bZkfAO[8]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on show graphic' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Show Graphic&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Show Graphic&quot;)))' selected='false'/>
@@ -182,7 +179,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"GFX Catalog"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"GFX Catalog"' type='web' desc='verify the visibility of GFX catalog' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='span(&quot;GFX Catalog&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='span(0, _in(div(&quot;fIhjiC sc-kdjpcd&quot;)))' selected='false'/>

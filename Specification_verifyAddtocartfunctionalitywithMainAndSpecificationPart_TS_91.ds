@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='completes the CGP lookup' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/VIN_CGP_lookup.ds"' selected='true'/>
+   <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/VIN_Vehicle_lookup.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/VIN_Vehicle_lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='add part to the cart' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(div(&quot;cXFZrk sc-KiOns&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='button(3)' selected='false'/>
+   <accessor type='click' value='button(&quot;iuCKBP jiVyVA sc-cYmoNK sc-idiyUo&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='navigates to the shopping cart' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==ShoppingCartIcon&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;cCgssE sc-bPyhqo&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;1[1]&quot;)' selected='false'/>
+   <accessor type='click' value='div(17)' selected='false'/>
+   <accessor type='click' value='div(&quot;iVQfTs sc-fWIMVQ&quot;)' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;1&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='click add parts on cart page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add Parts[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Add Parts&quot;)))' selected='false'/>
+   <accessor type='click' value='span(15)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;kiyOLr sc-jNrqiC&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='seelct YMME lookup' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Belts &amp; Cooling[2]&quot;)' selected='true'/>
+   <accessor type='click' value='div(1, _in(div(&quot;cQDedz sc-fctJkW[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(1, _in(div(&quot;Belts &amp; Cooling[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(62)' selected='false'/>
+   <accessor type='click' value='div(&quot;iebRkw sc-HzFiz[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(28)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;iebRkw sc-HzFiz[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(57)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;eGxZTK sc-HzFiz[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Show result button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>
+   <accessor type='click' value='span(10)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on specifications' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Specifications&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;jsWRPM sc-kdjpcd&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Specifications&quot;)))' selected='false'/>
+   <accessor type='click' value='span(25)' selected='false'/>
+   <accessor type='click' value='span(&quot;blLPBu sc-fmlCPO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Specification"' type='web' desc='verify user reaches under specification' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Specification&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;jFVolH sc-fbHdRr&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Specification&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Specification&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(322)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Belts"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Belts[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;btPwNN sc-bSPOJN&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;MuiGrid-item MuiGrid-root fCUNLZ sc-gzzPqb&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Belts&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(280)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;btPwNN sc-bSPOJN&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='click on specification filter results' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Automatic Transmission Parts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;cAmVgI sc-jbcVfm&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Automatic Transmission Parts[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(323)' selected='false'/>
+   <accessor type='click' value='span(&quot;aeGhy sc-iECAy&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on the checkbox' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div([&quot;sc-ikZpkk izyknD&quot;],leftOf(span([&quot;A/T FLUID CAP LTRS&quot;]))) ' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;checkbox-wrapper kRXsBn sc-kLLXSd[9]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;fbHqXd sc-jIZahH&quot;)' selected='false'/>
+   <accessor type='click' value='div(358)' selected='false'/>
+   <accessor type='click' value='div([&quot;sc-ikZpkk izyknD&quot;],leftOf(_ds.span([&quot;CAF BEHIND GLV CMP&quot;]))) ' selected='false'/>
+   <accessor type='click' value='div([&quot;sc-ikZpkk izyknD&quot;],leftOf(span([&quot;CAF BEHIND GLV CMP&quot;]))) ' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart[6]&quot;)' selected='true'/>
+   <accessor type='click' value='span(1, _in(button(&quot;1Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(328)' selected='false'/>
+   <accessor type='click' value='span(1, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Specifications updated"' type='web' desc='verify tost message of updated specfication is coming' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Specifications updated[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;kVhxpg sc-lbOyJj&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Specifications updated&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(235)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;kVhxpg sc-lbOyJj&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on View Cart text link' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;View Cart&quot;)' selected='true'/>
+   <accessor type='click' value='span(2, _in(div(&quot;alert alert-success dYdqIk fade sc-fbPSWO show&quot;)))' selected='false'/>
+   <accessor type='click' value='span(2, _in(div(&quot;Specifications updatedView Cart[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(236)' selected='false'/>
+   <accessor type='click' value='span(&quot;leZkEw sc-ehmTmK&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Specifications"' type='web' desc='verify specifications are added into the cart' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Specifications&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading4(&quot;dOSPuy kUjiQM sc-bcnBk sc-coCPJf[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading4(&quot;Specifications&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(44)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading4(&quot;dOSPuy kUjiQM sc-bcnBk sc-coCPJf[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

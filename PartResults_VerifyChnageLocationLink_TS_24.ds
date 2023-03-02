@@ -2,7 +2,7 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='include' value='' type='web' desc='navigates to the results page' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
    <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/YMME_Lookup.ds"' selected='false'/>
@@ -10,7 +10,7 @@
    <accessor type='include' value='"{ds}/../CommonSteps/PartsByNavigation.ds"' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='clicks on change location on parts results page' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;Change Location&quot;)' selected='true'/>
    <accessor type='click' value='div(0, _in(span(&quot;dRqPwe sc-ZyMtA&quot;)))' selected='false'/>
@@ -28,7 +28,7 @@
    <accessor type='assertContainsText' value='span(0, _in(div(&quot;cnHuKd sc-lbxAil&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='clicks on select option' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Select[1]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Select[1]&quot;)))' selected='false'/>
@@ -36,7 +36,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[1]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertExists' value='""' type='web' desc='verify location changed for the selected location' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertExists' value='span(&quot;Location changed to: store 3[1]&quot;)' selected='true'/>
    <accessor type='assertExists' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
@@ -72,7 +72,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[3]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='clicks on change location text link' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;Change Location&quot;)' selected='true'/>
    <accessor type='click' value='div(0, _in(span(&quot;hwlTDp sc-jfRwit&quot;)))' selected='false'/>
@@ -89,7 +89,7 @@
    <accessor type='click' value='span(0, _in(button(&quot;kinPPd sc-idiyUo[2]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"Location changed to: Store 4"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"Location changed to: Store 4"' type='web' desc='verify location changed for the selected location' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='span(&quot;Location changed to: Store 4[1]&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='span(0, _in(span(&quot;sc-dwLEzm ubpKx&quot;)))' selected='false'/>
