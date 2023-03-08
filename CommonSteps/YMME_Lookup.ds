@@ -2,13 +2,13 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='include' value='"{ds}/Loginfile.ds"' selected='true'/>
    <accessor type='include' value='"{ds}/../CommonSteps/Loginfile.ds"' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='clicks on search icon' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
    <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)' selected='false'/>
@@ -16,21 +16,21 @@
    <accessor type='click' value='svg(10)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='select YEAR' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;2014&quot;)' selected='true'/>
    <accessor type='click' value='div(202)' selected='false'/>
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[9]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='MAKE' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;LAND ROVER&quot;)' selected='true'/>
    <accessor type='click' value='div(225)' selected='false'/>
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[28]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='MODEL' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;RANGE ROVER&quot;)' selected='true'/>
    <accessor type='click' value='div(195)' selected='false'/>
@@ -42,7 +42,7 @@
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='user selects the engine' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div([&quot;5.0L&quot;],_below(span([&quot;Engine&quot;])))' selected='true'/>
    <accessor type='click' value='div(130)' selected='false'/>
@@ -50,7 +50,7 @@
    <accessor type='click' value='div(&quot;V8-5000 5.0L DOHC&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='assertContainsText' value='"2014 RANGE ROVER"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='assertContainsText' value='"2014 RANGE ROVER"' type='web' desc='verify the required vehicle is selected' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='assertContainsText' value='div(&quot;2014 RANGE ROVER&quot;)' selected='true'/>
    <accessor type='assertContainsText' value='div(&quot;kAIUmN sc-bwANAz&quot;)' selected='false'/>

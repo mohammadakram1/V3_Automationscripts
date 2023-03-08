@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the applicatoin' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on See more option in the yellow bar' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;See More&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;...See More&quot;)))' selected='false'/>
+   <accessor type='click' value='span(2)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;fWojZO sc-dUSuch&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on See Less option in the yellow bar' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;See Less&quot;)' selected='true'/>
+   <accessor type='click' value='span(2)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;See Less&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;See More&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;...See More&quot;)))' selected='false'/>
+   <accessor type='click' value='span(2)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;fWojZO sc-dUSuch&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='verify the element availability' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='div([&quot;Have you tried GFX the graphical ca&quot;])' selected='true'/>
+   <accessor type='assertExists' value='div(&quot;dfmrcZ sc-jQAaru&quot;)' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(span(&quot;hCSXCa sc-dVDMgZ&quot;)))' selected='false'/>
+   <accessor type='assertExists' value='div(0, _in(span([&quot;Have you tried GFX the graphical ca&quot;])))' selected='false'/>
+   <accessor type='assertExists' value='div([&quot;Have you tried GFX the graphical ca&quot;])' selected='false'/>
+   <accessor type='assertExists' value='div(4)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Have you tried GFX the graphical catalog? Click the icon to"' type='web' desc='verify the scrolling message yellow bar appears' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div([&quot;Have you tried GFX the graphical ca&quot;])' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;dfmrcZ sc-jQAaru&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(span(&quot;hCSXCa sc-dVDMgZ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(span([&quot;Have you tried GFX the graphical ca&quot;])))' selected='false'/>
+   <accessor type='assertContainsText' value='div(4)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;dfmrcZ sc-jQAaru&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>
