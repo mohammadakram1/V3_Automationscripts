@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"21212"' type='web' desc='enters interchange search' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Separate multiple part #s with spaces[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;data-testid==input[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;ccpbMF sc-hLaujc[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;eYTeTT sc-oclUV[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[3]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;eYTeTT sc-oclUV[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(6)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Type"' type='web' desc='verify the filter results' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Type&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;Mui-expanded MuiAccordionSummary-gutters MuiAccordionSummary-root MuiButtonBase-root csoiIH ibpgzt kUVCfG sc-dkzDqf sc-epVeNg sc-jtcaXd&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordion-gutters MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation MuiPaper-elevation1 MuiPaper-root MuiPaper-rounded eBSPsv eZQhSL exMZhg sc-dvwKko sc-eELIPF sc-gKXOVf&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(98)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;Mui-expanded MuiAccordionSummary-gutters MuiAccordionSummary-root MuiButtonBase-root csoiIH ibpgzt kUVCfG sc-dkzDqf sc-epVeNg sc-jtcaXd&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Filter Results"' type='web' desc='verify the filter results' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='heading3(&quot;Filter Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='heading3(&quot;iAPrgJ sc-jnCuNW&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(0, _in(div(&quot;UoJMz sc-caiQmJ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(0, _in(div(&quot;Filter Results&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(7)' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(&quot;iAPrgJ sc-jnCuNW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on brand filter result' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Part Type[2]&quot;)' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi&quot;)))' selected='false'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Part Type[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(100)' selected='false'/>
+   <accessor type='click' value='div(&quot;iwnyEg sc-foDcoF&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Brands"' type='web' desc='verify brand option is visible' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Brands[2]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Brands[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(148)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(0, _in(div(&quot;Brands&quot;)))' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-gutters MuiAccordionSummary-root MuiButtonBase-root csoiIH ibpgzt kUVCfG sc-dkzDqf sc-epVeNg sc-jtcaXd&quot;)))' selected='false'/>
+   <accessor type='click' value='div(147)' selected='false'/>
+   <accessor type='click' value='div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi&quot;)' selected='false'/>
+   <accessor type='click' value='div(&quot;Brands[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Engine"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search Part #, Brand, or Part Name[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;data-testid==input[0]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;ccpbMF sc-hLaujc&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;eYTeTT sc-oclUV&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Engine Heater&quot;)' selected='true'/>
+   <accessor type='click' value='span(4, _in(div(&quot;fSyOtb sc-jclSIp&quot;)))' selected='false'/>
+   <accessor type='click' value='span(12)' selected='false'/>
+   <accessor type='click' value='span(&quot;hvWVwL sc-ivmvlL[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Type"' type='web' desc='verify filter result Part Type visibility' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Type[2]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Part Type[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(100)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Brands"' type='web' desc='verify filter result Brands visibility' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Brands[2]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Brands[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(152)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;iwnyEg sc-foDcoF[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='verifyDoesNotContain' value='"Lines"' type='web' desc='verify filter result Lines is not displaying for interchange and AST search' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='verifyDoesNotContain' value='div(&quot;Lines[2]&quot;)' selected='true'/>
+   <accessor type='verifyDoesNotContain' value='div(&quot;iwnyEg sc-foDcoF[2]&quot;)' selected='false'/>
+   <accessor type='verifyDoesNotContain' value='div(0, _in(div(&quot;Mui-expanded MuiAccordionSummary-content MuiAccordionSummary-contentGutters hPsXNv sc-elYLMi&quot;)))' selected='false'/>
+   <accessor type='verifyDoesNotContain' value='div(0, _in(div(&quot;Lines[1]&quot;)))' selected='false'/>
+   <accessor type='verifyDoesNotContain' value='div(118)' selected='false'/>
+   <accessor type='verifyDoesNotContain' value='div(&quot;iwnyEg sc-foDcoF[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

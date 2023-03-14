@@ -47,7 +47,7 @@
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='seleect engine from the dropdown' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;4-1799 1.8L SOHC[1]&quot;)' selected='true'/>
    <accessor type='click' value='div(136)' selected='false'/>
