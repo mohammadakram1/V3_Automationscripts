@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Completes the Parts by navigation' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Specification_Lookup.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/YMME_Lookup.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/YMME_Lookup.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/Specification_Lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on specification options' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Specifications&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;bKzXqb sc-cDZKqC&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Specifications&quot;)))' selected='false'/>
+   <accessor type='click' value='span(31)' selected='false'/>
+   <accessor type='click' value='span(&quot;gzcpBj sc-gcVaRb&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"2014 LAND ROVER RANGE ROVER"' type='web' desc='verify the correct vehicle specification drawer' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;2014 LAND ROVER RANGE ROVER&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiGrid-item MuiGrid-root bdtRZo hrBJtC sc-hNDKOd sc-hUcCTj&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;MuiGrid-container MuiGrid-root gbDGAw sc-hNDKOd&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(403)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiGrid-item MuiGrid-root bdtRZo hrBJtC sc-hNDKOd sc-hUcCTj&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Automatic Transmission Parts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;eWlAhB sc-fjFeqH&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Automatic Transmission Parts[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(382)' selected='false'/>
+   <accessor type='click' value='span(&quot;fKfvWt sc-kusyyp&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='selects check box from the specfication dropdown' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div([&quot;sc-blmETK dJdHil&quot;],below(span([&quot;Automatic Transmission Parts&quot;])))' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;checkbox-wrapper gLvyMu sc-fmKESZ[13]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(&quot;hHAsHN sc-blmETK&quot;)' selected='false'/>
+   <accessor type='click' value='div(434)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Add to Cart"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Add to Cart[10]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(1, _in(button(&quot;hGaxVW sc-hLQRIN&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(1, _in(button(&quot;2Add to Cart&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(506)' selected='false'/>
+   <accessor type='assertContainsText' value='span(1, _in(button(&quot;hGaxVW sc-hLQRIN&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on add to cart button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Add to Cart[10]&quot;)' selected='true'/>
+   <accessor type='click' value='span(1, _in(button(&quot;2Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='span(506)' selected='false'/>
+   <accessor type='click' value='span(1, _in(button(&quot;hGaxVW sc-hLQRIN&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Specifications updated"' type='web' desc='verify specification updated ' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Specifications updated[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;dMhMhR sc-jMbUWg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Specifications updated&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(382)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;dMhMhR sc-jMbUWg&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on view cart details' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;View Cart&quot;)' selected='true'/>
+   <accessor type='click' value='span(2, _in(div(&quot;alert alert-success fade jhbYyr sc-cPtzYu show&quot;)))' selected='false'/>
+   <accessor type='click' value='span(2, _in(div(&quot;Specifications updatedView Cart[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(383)' selected='false'/>
+   <accessor type='click' value='span(&quot;eJiOSK sc-cSxQHt&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on save as quote' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Save As Quote&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Save As Quote&quot;)))' selected='false'/>
+   <accessor type='click' value='span(19)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;iwuIbx sc-hLQRIN[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"2014 LAND ROVER RANGE ROVER was saved as a quote"' type='web' desc='verify the vehicle has been saved as quotes' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span([&quot;2014 LAND ROVER RANGE ROVER was sav&quot;])' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;dMhMhR sc-jMbUWg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(42)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;dMhMhR sc-jMbUWg&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Quotes option in header section' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading3(&quot;Quotes&quot;)' selected='true'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;gXbxWu sc-jvBsNc[5]&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;Quotes&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(5)' selected='false'/>
+   <accessor type='click' value='heading3(&quot;dtjMsP sc-bzCLmn[5]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Quotes"' type='web' desc='verify user reaches on quotes page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;dMGJcv sc-gWvpGg&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;dMGJcv sc-gWvpGg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;Quotes[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Quotes&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(12)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on view details' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;View Details&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;View Details[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(30)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;ehwpZZ sc-diOBPW&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Quote DetailsYour Cost"' type='web' desc='verify user reahes on quotes details page to see the saved quotes' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Quote DetailsYour Cost&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;hnrZJZ sc-gGusF&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(1, _in(div(&quot;gzHAvL sc-bFvxhr&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(53)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;hnrZJZ sc-gGusF&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"15155"' type='web' desc='enter interchange search' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Separate multiple part #s with spaces[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;data-testid==input[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;kVLpzW sc-cwptBU[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;hmzKFj sc-lhpvA-D[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on search icon' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root iNrvnF sc-beySbM[3]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;hmzKFj sc-lhpvA-D[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(6)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"OXYGEN SENSOR"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;OXYGEN SENSOR[3]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;cxgzMD sc-kHfYIi&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;cpYISj sc-ciZpgj&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(208)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;cxgzMD sc-kHfYIi&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='getText(div(&quot;OXYGEN SENSOR[3]&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='value' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on ADD TO CART button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(div(&quot;kEEfUp sc-jQcUJc&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+   <accessor type='click' value='button(&quot;hGaxVW javkjA sc-hLQRIN sc-jcDtuW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on ADD TO CART button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Add to Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(div(&quot;kEEfUp sc-jQcUJc&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Add to Cart&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+   <accessor type='click' value='button(&quot;hGaxVW javkjA sc-hLQRIN sc-jcDtuW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==ShoppingCartIcon[0]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root grXYWK iNrvnF sc-beySbM sc-gjJuzA&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(button(&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium eijxeQ irBzWd sc-bYpRmk sc-cAQntp[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(2)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"MISCELLANEOUS"' type='web' desc='verify user eaches on cart page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;MISCELLANEOUS[3]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;evxCeK sc-ldxQMJ&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;biTmOP sc-hECAmk&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;MISCELLANEOUS[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(93)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;evxCeK sc-ldxQMJ&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Save As Quote"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Save As Quote&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;iwuIbx sc-hLQRIN[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;Save As Quote&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(43)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;iwuIbx sc-hLQRIN[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on save as quotes options' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Save As Quote&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(div(&quot;align-items-center d-flex[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Add PartsSave As QuoteRemove cart&quot;)))' selected='false'/>
+   <accessor type='click' value='button(7)' selected='false'/>
+   <accessor type='click' value='button(&quot;iwuIbx sc-hLQRIN[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicsk on view quotes test links' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;View Quotes&quot;)' selected='true'/>
+   <accessor type='click' value='span(2, _in(div(&quot;alert alert-success fade jhbYyr sc-cPtzYu show&quot;)))' selected='false'/>
+   <accessor type='click' value='span(42)' selected='false'/>
+   <accessor type='click' value='span(&quot;eJiOSK sc-cSxQHt&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Quotes"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Quotes&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;dMGJcv sc-gWvpGg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;Quotes[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(36)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(heading3(&quot;dMGJcv sc-gWvpGg&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on View Details text link' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;View Details&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;View Details[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(54)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;ehwpZZ sc-diOBPW&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Miscellaneous"' type='web' desc='verify the miscellaneous quotes is visible' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Miscellaneous[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;ddkHPn sc-jVvkSu&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Miscellaneous&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(42)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;ddkHPn sc-jVvkSu&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Quote Details"' type='web' desc='verify user eaches on quotes details page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Quote Details&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;ibpoYi sc-fgspHl&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;Quote Details&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(37)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(paragraph(&quot;ibpoYi sc-fgspHl&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertTextPresent' value='value' type='web' desc='verify the text is available on quotes details page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertTextPresent' value='span(&quot;OXYGEN SENSOR&quot;)' selected='true'/>
+   <accessor type='assertTextPresent' value='span(&quot;konTKQ sc-iuSndH&quot;)' selected='false'/>
+   <accessor type='assertTextPresent' value='span(63)' selected='false'/>
+   <accessor type='assertTextPresent' value='span(&quot;konTKQ sc-iuSndH&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"AZ/FOU SEASO PRODUCT"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;AZ/FOU SEASO PRODUCT&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;konTKQ sc-iuSndH[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(79)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;konTKQ sc-iuSndH[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicsk on order types dropdown' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Regular&quot;)))' selected='true'/>
+   <accessor type='click' value='span(0, _in(span(&quot;OtHjO sc-yvFSW&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Regular[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(49)' selected='false'/>
+   <accessor type='click' value='span(&quot;sc-bPNzKF xxVJD&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='select value' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;Urgent&quot;)' selected='true'/>
+   <accessor type='click' value='div(1, _in(div(&quot;jTpUIW sc-jGnSJc&quot;)))' selected='false'/>
+   <accessor type='click' value='div(1, _in(div(&quot;RegularUrgent[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='div(128)' selected='false'/>
+   <accessor type='click' value='div(&quot;fcIKQA sc-dXqWtv&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Add Quote to Cart"' type='web' desc='verify the ADD QUOTE TO CART button is visible' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Add Quote to Cart&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;heAwnS sc-hLQRIN&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;Add Quote to Cart&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(101)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;heAwnS sc-hLQRIN&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Completes the YMME lookup' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/YMME_Lookup.ds"' selected='true'/>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='false'/>
+   <accessor type='include' value='"{ds}/CommonSteps/YMME_Lookup.ds"' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='selects category' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Accessories&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Accessories[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(14)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;oOiDR sc-dxjsDj&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='selct group' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Aerodynamic Accessories&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Aerodynamic Accessories[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(31)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;oOiDR sc-dxjsDj[13]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='selct group' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts &amp; Cooling&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts &amp; Cooling[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(15)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;oOiDR sc-dxjsDj[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select group' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(40)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;oOiDR sc-dxjsDj[20]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select group types' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Aerodynamic Accessories[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Aerodynamic Accessories[4]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(50)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;fiJoob sc-dxjsDj[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[4]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(49)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;fiJoob sc-dxjsDj[3]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on show results' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
+</dialect>
+</step>
+</testcase>

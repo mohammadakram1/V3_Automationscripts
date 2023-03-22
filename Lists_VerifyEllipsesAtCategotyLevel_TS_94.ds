@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login onto the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on the list in header section' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading3(&quot;Lists&quot;)' selected='true'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;gCqCmy sc-gITdmR[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;Lists&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(2)' selected='false'/>
+   <accessor type='click' value='heading3(&quot;kIIZZx sc-evrZIY[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='select category' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[2]&quot;)' selected='true'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[9]&quot;)))' selected='false'/>
+   <accessor type='click' value='path(17)' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Rename' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Rename&quot;)))' selected='true'/>
+   <accessor type='click' value='span(337)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;fOGJse sc-kteYBe&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Rename[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='eval(&apos;\&quot;TestValue&apos;+ Math.floor(Math.random()*100)+&apos;\&quot;&apos;)' type='web' desc='enters Category name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dPgFZE sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;hcNEuW sc-iIPllB&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(7)' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='getText(textbox(&quot;placeholder==[0]&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='value' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on save changes' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Save Changes&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Save Changes&quot;)))' selected='false'/>
+   <accessor type='click' value='span(340)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Successfully updated category"' type='web' desc='verify category name changes successfully' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Successfully updated category&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiSnackbar-anchorOriginTopCenter MuiSnackbar-root enVLUS fUPzLE sc-ehmTmK sc-fbPSWO&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(636, _in(div(&quot;root&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(615)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiSnackbar-anchorOriginTopCenter MuiSnackbar-root enVLUS fUPzLE sc-ehmTmK sc-fbPSWO&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='4000, isVisible(value)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='focus' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='focus' value='span(value)' selected='true'/>
+   <accessor type='focus' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(value)))' selected='false'/>
+   <accessor type='focus' value='spna(value)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on the category ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(value)))' selected='true'/>
+   <accessor type='click' value='path(425)' selected='false'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[417]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(_ds.span(&quot;TestValue90&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(_ds.span(value)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(&quot;value&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(value)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on new list' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;New List&quot;)))' selected='true'/>
+   <accessor type='click' value='span(341)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;fOGJse sc-kteYBe[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;New List[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='eval(&apos;\&quot;TestValue&apos;+ Math.floor(Math.random()*1000)+&apos;\&quot;&apos;)' type='web' desc='enters new list name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dPgFZE sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;hcNEuW sc-iIPllB&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Create List&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Create List&quot;)))' selected='false'/>
+   <accessor type='click' value='span(342)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Successfully created list"' type='web' desc='verify list created successfully' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Successfully created list&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(335)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Successfully created list[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(value)))' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[19]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;gmMfAV sc-dcrfrI[6]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(27)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[6]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on delete button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Delete&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;dIaoyG sc-fXnaaH[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Delete&quot;)))' selected='false'/>
+   <accessor type='click' value='span(341)' selected='false'/>
+   <accessor type='click' value='span(&quot;fOGJse sc-kteYBe[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Delete category[1]&quot;)))' selected='true'/>
+   <accessor type='click' value='span(345)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;hcvhny sc-jtLbYp&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&apos;Delete category&apos;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Delete category[2]&quot;)' selected='false'/>
+   <accessor type='click' value='span(&apos;Delete category&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Successfully deleted category"' type='web' desc='verify the category deleted succesfully' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Successfully deleted category&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Successfully deleted category[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(334)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

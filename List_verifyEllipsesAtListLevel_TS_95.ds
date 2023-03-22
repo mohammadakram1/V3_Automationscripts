@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login onto the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on the list in header section' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading3(&quot;Lists&quot;)' selected='true'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;gCqCmy sc-gITdmR[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;Lists&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(2)' selected='false'/>
+   <accessor type='click' value='heading3(&quot;kIIZZx sc-evrZIY[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' svg(&apos;data-testid==MoreVertIcon&apos;,above(span(&quot;Last Used&quot;)))' selected='true'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;CxDCV MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ sc-lrjFP&quot;)))' selected='false'/>
+   <accessor type='click' value='path(435)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on move option from the dropdown' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Move&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Move[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(332)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;eJSyuC jiNKxm sc-cfNtnS sc-fniybn&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='radio(&quot;1_1&quot;)' selected='true'/>
+   <accessor type='click' value='radio(&quot;73940&quot;)' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;eyzpoq sc-gicCDI&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;a00003[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0)' selected='false'/>
+   <accessor type='click' value='radio(&quot;ecoQiu sc-kLLXSd&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Move list&quot;,rightOf(span(&quot;Cancel&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Move list[2]&quot;)' selected='false'/>
+   <accessor type='click' value='span(335)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;kxkOVo sc-dfvoPZ&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Move list[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='expand the category' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&apos;data-testid==ExpandMoreIcon&apos;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[222]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(1, _in(div(&quot;gmMfAV sc-dcrfrI[107]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(230)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==ExpandMoreIcon[106]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on category ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;CxDCV MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ sc-lrjFP&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(button(&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium hqxVAB ibpgzt sc-dkzDqf sc-hKMtZM[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(435)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[209]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on new list' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;New List&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;New List[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(336)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;fOGJse sc-kteYBe[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='eval(&apos;\&quot;TestValue&apos;+ Math.floor(Math.random()*1000)+&apos;\&quot;&apos;)' type='web' desc='enters new list name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dPgFZE sc-cxabCf&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;hcNEuW sc-iIPllB&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(7)' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='getText(textbox(&quot;placeholder==[0]&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='listname' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='user created new list' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Create List&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Create List&quot;)))' selected='false'/>
+   <accessor type='click' value='span(342)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;jiVyVA sc-idiyUo&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Successfully created list"' type='web' desc='verify list created successfully' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Successfully created list&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(335)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;itRtsj sc-gFGZVQ&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Successfully created list[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='focus' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='focus' value='span(listname)' selected='true'/>
+   <accessor type='focus' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(value)))' selected='false'/>
+   <accessor type='focus' value='spna(value)' selected='false'/>
+   <accessor type='focus' value='span(value)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on the category ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(listname)' selected='true'/>
+   <accessor type='click' value='path(425)' selected='false'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ[417]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(_ds.span(&quot;TestValue90&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(_ds.span(value)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(&quot;value&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,rightOf(span(value)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(value)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(listname)))' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3000,isVisible(span(listname))' type='web' desc='clicks on newly created list' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on list ellipses ' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' svg(&apos;data-testid==MoreVertIcon&apos;,above(span(&quot;Last Used&quot;)))' selected='true'/>
+   <accessor type='click' value='path(0, _in(svg(&quot;CxDCV MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ sc-lrjFP&quot;)))' selected='false'/>
+   <accessor type='click' value='path(435)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Move option from the dropdown' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Move&quot;)))' selected='true'/>
+   <accessor type='click' value='span(292)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;eJSyuC jiNKxm sc-cfNtnS sc-fniybn&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Move[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select category to move list' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='radio(&quot;1_1&quot;)' selected='true'/>
+   <accessor type='click' value='radio(&quot;73940&quot;)' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;eyzpoq sc-gicCDI&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;a00003[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0)' selected='false'/>
+   <accessor type='click' value='radio(&quot;ecoQiu sc-kLLXSd&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='move list into another category' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Move list&quot;,rightOf(span(&quot;Cancel&quot;)))' selected='true'/>
+   <accessor type='click' value='div(0, _in(div(&quot;EDSgE MuiDrawer-paper MuiDrawer-paperAnchorBottom MuiPaper-elevation MuiPaper-elevation16 MuiPaper-root MuiPaper-rounded lhIWYf sc-eTgnfb sc-gKXOVf&quot;)))' selected='false'/>
+   <accessor type='click' value='div(532)' selected='false'/>
+   <accessor type='click' value='div(&quot;biKUnG sc-fvzXkO&quot;)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;Move list[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on list ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' svg(&apos;data-testid==MoreVertIcon&apos;,above(span(&quot;Last Used&quot;)))' selected='true'/>
+   <accessor type='click' value='svg(&quot;CxDCV MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ sc-lrjFP&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(button(&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium hqxVAB ibpgzt sc-dkzDqf sc-hKMtZM[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(435)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[209]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on delete option of category ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Delete&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Delete[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(343)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;eJSyuC jiNKxm sc-cfNtnS sc-fniybn[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Delete List"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Delete List[1]&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;cEZaot sc-inBvjg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Delete List[2]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(347)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;cEZaot sc-inBvjg&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>
