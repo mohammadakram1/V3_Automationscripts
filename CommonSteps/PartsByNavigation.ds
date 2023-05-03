@@ -2,7 +2,7 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='include' value='' type='web' desc='login into the application' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='include' value='"{ds}/Loginfile.ds"' selected='true'/>
    <accessor type='include' value='"SERVER/D:/MPV3 AUTOMATION/CommonSteps/Loginfile.ds"' selected='false'/>
@@ -60,18 +60,18 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(&quot;Drive Belts&quot;)' selected='true'/>
-   <accessor type='click' value='span(0, _in(div(&quot;Drive Belts[2]&quot;)))' selected='false'/>
-   <accessor type='click' value='span(41)' selected='false'/>
-   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[18]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Radiator, Cap, Fan Motor &amp; Switch&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Radiator, Cap, Fan Motor &amp; Switch[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(37)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;XPPxq sc-jSUerS[15]&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(&quot;AC Compressor Belt&quot;)' selected='true'/>
-   <accessor type='click' value='span(0, _in(div(&quot;AC Compressor Belt[2]&quot;)))' selected='false'/>
-   <accessor type='click' value='span(42)' selected='false'/>
-   <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[19]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;Radiator, Cap, Fan Motor &amp; Switch[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Radiator, Cap, Fan Motor &amp; Switch[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(49)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;UyGpU sc-jSUerS[1]&quot;)))' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

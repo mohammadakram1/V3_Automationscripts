@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login onto the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks in List option from the header' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading3(&quot;Lists&quot;)' selected='true'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;gXbxWu sc-jvBsNc[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(0, _in(div(&quot;Lists&quot;)))' selected='false'/>
+   <accessor type='click' value='heading3(3)' selected='false'/>
+   <accessor type='click' value='heading3(&quot;dtjMsP sc-bzCLmn[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='5000,isVisible(svg(&apos;data-testid==MoreVertIcon&apos;,near(span(&quot;Seller Managed&quot;))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='focus' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='focus' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(&quot;Seller Managed&quot;)))' selected='true'/>
+   <accessor type='focus' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='clicks on category ellipses' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,near(span(&quot;Seller Managed&quot;)))' selected='true'/>
+   <accessor type='click' value='svg(&quot;CxDCV MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW sc-eCYdqJ sc-lrjFP&quot;)' selected='false'/>
+   <accessor type='click' value='svg(435)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[209]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==MoreVertIcon[2]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(button(&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium hqxVAB ibpgzt sc-dkzDqf sc-hKMtZM[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(&apos;data-testid==MoreVertIcon&apos;,below(span(&quot;Lists&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Rename"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Rename&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;dFTuBq sc-kujwkf&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;dYrFIU sc-fXtWBW&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;RenameDeleteNew List[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(504)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;dFTuBq sc-kujwkf&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Delete"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Delete&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;jMVXcR sc-jyqPbQ[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Delete[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(253)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;jMVXcR sc-jyqPbQ[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>
