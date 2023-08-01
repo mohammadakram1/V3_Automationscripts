@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Completes the PartByNavigations ' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/PartsByNavigation.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='wait' value='3000,isVisible(span(&quot;Contact Us&quot;))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Contact Us"' type='web' desc='verify user reaches on Result page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Contact Us&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;eeiwA-D sc-cwptBU&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Contact Us[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(10)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;eeiwA-D sc-cwptBU&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on contact us' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Contact Us&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Contact Us[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(10)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;eeiwA-D sc-cwptBU&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Send us a message"' type='web' desc='verify the drawer is opened' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Send us a message&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiGrid-grid-xs-12 MuiGrid-item MuiGrid-root jNnMYC sc-jIBmdK&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;MuiGrid-container MuiGrid-root gDSUG my-2 sc-jIBmdK&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(173)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiGrid-grid-xs-12 MuiGrid-item MuiGrid-root jNnMYC sc-jIBmdK&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"testing"' type='web' desc='enters name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dhtJwR sc-eFyCCs&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;jfDYXo sc-dEFURK&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"xyz@gmail.com"' type='web' desc='enters email' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[1]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dhtJwR sc-eFyCCs[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;jfDYXo sc-dEFURK[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(4)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"qatesting"' type='web' desc='enters subject' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==[2]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;dhtJwR sc-eFyCCs[2]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(span(&quot;jfDYXo sc-dEFURK[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(5)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Priority"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Priority&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;ijveNr sc-gUhUuh&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Priority*&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(76)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;ijveNr sc-gUhUuh&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div([&quot;Today&quot;],below(span(&quot;Priority&quot;)))' selected='true'/>
+   <accessor type='click' value='div(5, _in(div(&quot;fIUSwM sc-ckLhtn&quot;)))' selected='false'/>
+   <accessor type='click' value='div(171)' selected='false'/>
+   <accessor type='click' value='div(&quot;drCMUO ketFSH sc-daMiEC sc-gHGlCA&quot;)' selected='false'/>
+   <accessor type='click' value='div([&quot;Today&quot;],span(&quot;Priority&quot;))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"UrgentTodayTomorrow"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;UrgentTodayTomorrow[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiMenu-paper MuiPaper-elevation MuiPaper-elevation8 MuiPaper-root MuiPaper-rounded MuiPopover-paper dTlKVe kMMwAV kvZCpB sc-bCvmcN sc-eDLJxc sc-jMbUWg&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;menu-&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;MuiMenu-root MuiModal-root MuiPopover-root cVMdZk sc-bBkKQz sc-cSxQHt sc-dQmhJc&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(2, _in(div(&quot;UrgentTodayTomorrow&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(200)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;MuiMenu-paper MuiPaper-elevation MuiPaper-elevation8 MuiPaper-root MuiPaper-rounded MuiPopover-paper dTlKVe kMMwAV kvZCpB sc-bCvmcN sc-eDLJxc sc-jMbUWg&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

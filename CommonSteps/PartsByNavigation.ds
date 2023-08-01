@@ -15,34 +15,34 @@
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[2]&quot;)' selected='true'/>
-   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root eIbRJW jNnQwE sc-aVUuG sc-eCYdqJ&quot;)' selected='false'/>
-   <accessor type='click' value='svg(0, _in(div(&quot;eoAqhB sc-jNXgPE&quot;)))' selected='false'/>
-   <accessor type='click' value='svg(10)' selected='false'/>
+   <accessor type='click' value='svg(&quot;data-testid==SearchIcon[4]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(&quot;MuiSvgIcon-fontSizeMedium MuiSvgIcon-root hyfhyy iNrvnF sc-beySbM sc-cQXgEC[1]&quot;)' selected='false'/>
+   <accessor type='click' value='svg(0, _in(div(&quot;dpTlUq sc-hVsIAY[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='svg(12)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='Select Year' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;2007&quot;)' selected='true'/>
    <accessor type='click' value='div(210)' selected='false'/>
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[16]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='Select Make' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;HINO&quot;)' selected='true'/>
    <accessor type='click' value='div(212)' selected='false'/>
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[17]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='Select Model' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;185&quot;)' selected='true'/>
    <accessor type='click' value='div(&quot;frrdsB sc-kkKunT[2]&quot;)' selected='false'/>
    <accessor type='click' value='div(195)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='Select Categories' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Belts &amp; Cooling&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Belts &amp; Cooling[2]&quot;)))' selected='false'/>
@@ -58,7 +58,7 @@
    <accessor type='click' value='span(0, _in(div(&quot;iiGTWX sc-brCFrO[13]&quot;)))' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='Select Group' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Radiator, Cap, Fan Motor &amp; Switch&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(div(&quot;Radiator, Cap, Fan Motor &amp; Switch[1]&quot;)))' selected='false'/>
@@ -75,6 +75,14 @@
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Belts[1]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;Belts[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(52)' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;jPpzfi sc-iEYWcO[1]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on SHOW RESULTS button' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;Show Results&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(button(&quot;Show Results&quot;)))' selected='false'/>

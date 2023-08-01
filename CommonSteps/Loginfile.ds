@@ -2,7 +2,7 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
 <fallback useFallback='true'/>
-<step action='navigateTo' value='"https://qa.pro.myplace4parts.com/#/home"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='navigateTo' value='"https://qa.pro.myplace4parts.com/home"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
@@ -15,20 +15,20 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"123456"' type='web' desc='enters password' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"123456"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='password(&quot;placeholder==Password[0]&quot;)' selected='true'/>
-   <accessor type='setValue' value='password(&quot;eFQgSv sc-kFCsca&quot;)' selected='false'/>
-   <accessor type='setValue' value='password(0, _in(span(&quot;dJfREM sc-csKIKE[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(&quot;Qycod sc-imiQPM&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(span(&quot;kqbMKd sc-bjUIxm[1]&quot;)))' selected='false'/>
    <accessor type='setValue' value='password(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='clicks on Login button' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;login&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(div(&quot;fYMdA sc-iicQtb&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;iNywHe sc-jXIYYQ&quot;)))' selected='false'/>
    <accessor type='click' value='button(0)' selected='false'/>
-   <accessor type='click' value='button(&quot;hGaxVW iyenYZ sc-ebTlLM sc-hLQRIN&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;cRwxbe iQyseS sc-gfCpqJ sc-jFRDNw&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='closes the pop-up window' isThinkTime='false' isCommented='false' sequence='0'>

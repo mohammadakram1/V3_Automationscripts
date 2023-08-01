@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on Multipart enquiry' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Multipart Inquiry&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Multipart Inquiry[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(9)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;jKEsZY sc-KrMst&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Inquiry"' type='web' desc='verify the Part inquiry drawer is Opened' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Inquiry&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hZEykh sc-AnhJK&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(148)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"WIN"' type='web' desc='enters MFR' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;fMHsnm sc-jdEjto&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;items[0].lineCode&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;bLhAXD sc-fopvND&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;0/3[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(8)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"9305"' type='web' desc='Enters part numbers' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;fMHsnm sc-jdEjto[1]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;items[0].partNumber&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;bLhAXD sc-fopvND[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(9)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"3"' type='web' desc='enter Qty' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='numberbox(0)' selected='true'/>
+   <accessor type='setValue' value='numberbox(&quot;items[0].stockQty&quot;)' selected='false'/>
+   <accessor type='setValue' value='numberbox(0, _in(div(&quot;bLhAXD sc-fopvND[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='numberbox(0, _in(div(&quot;0/3[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='numberbox(&quot;fMHsnm sc-jdEjto&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Search Parrts button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;Search Parts&quot;)' selected='true'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+   <accessor type='click' value='submit(&quot;cRwxbe sc-jFRDNw&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Results"' type='web' desc='verify user landed on Results page' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Results&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;sc-iIVpdM wtGyu&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;Results&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(39)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;sc-iIVpdM wtGyu&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Add all to cart"' type='web' desc='verufy the add to all cart option' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Add all to cart&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;fogsiG sc-bUjFBl&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;iconEQ sc-cLGPTF[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;Add all to cartYour CostSort&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(119)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;fogsiG sc-bUjFBl&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>

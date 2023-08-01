@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on Multipart enquiry' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Multipart Inquiry&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Multipart Inquiry[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(9)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;jKEsZY sc-KrMst&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Inquiry"' type='web' desc='verify the Part inquiry drawer is Opened' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Inquiry&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hZEykh sc-AnhJK&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(148)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Search parts button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Search Parts&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;Search Parts&quot;)))' selected='false'/>
+   <accessor type='click' value='span(117)' selected='false'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;cRwxbe sc-jFRDNw&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Add atleast one item to list"' type='web' desc='verify the validation error message' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;Add atleast one item to list&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;gMpMSL sc-hBgdhc&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;Add atleast one item to list[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(87)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;gMpMSL sc-hBgdhc&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='include' value='' type='web' desc='Login into the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"{ds}/CommonSteps/Loginfile.ds"' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on Multipart enquiry' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(span(&quot;Multipart Inquiry&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Multipart Inquiry[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(9)' selected='false'/>
+   <accessor type='click' value='span(0, _in(span(&quot;jKEsZY sc-KrMst&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Part Inquiry"' type='web' desc='verify the Part inquiry drawer is Opened' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;Part Inquiry&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(0, _in(div(&quot;hZEykh sc-AnhJK&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='div(148)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;fFulfR kmbWgA sc-fhrEpP sc-leGdzW&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Import List"' type='web' desc='verify the Import List text displaying' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Import List&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;kcNIZZ sc-jFRDNw&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;Import List&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(116)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;kcNIZZ sc-jFRDNw&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='Clicks on Import List button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Import List&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Import List&quot;)))' selected='false'/>
+   <accessor type='click' value='span(116)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;kcNIZZ sc-jFRDNw&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='setFile4' value='"{ds}/Resources/PARTINQUIRY_TEMPLATE (3).csv"' type='web' desc='Upload file from the Resoure folder' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setFile4' value=' byClassName(&apos;sc-jdEjto cbysde&apos;)' selected='true'/>
+   <accessor type='setFile4' value='file(&quot;dIUHka sc-geUUNN&quot;)' selected='false'/>
+   <accessor type='setFile4' value='byClassName(&apos;sc-geUUNN dIUHka&apos;,below(span(&apos;Use our template list (CSV)&apos;)))' selected='false'/>
+   <accessor type='setFile4' value=' byClassName(&apos;sc-geUUNN dIUHka&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Import Button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Import&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Import&quot;)))' selected='false'/>
+   <accessor type='click' value='span(96)' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;cRwxbe sc-jFRDNw&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Your list was imported successfully (4 lines)"' type='web' desc='verify the csv file imported successfully' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span([&quot;Your list was imported successfully&quot;])' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;WLQVj sc-kTNywg&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div([&quot;Your list was imported successfully&quot;])))' selected='false'/>
+   <accessor type='assertContainsText' value='span(94)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(div(&quot;WLQVj sc-kTNywg&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"finish"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;finish&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;cRwxbe sc-jFRDNw&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;finish&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(96)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;cRwxbe sc-jFRDNw&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on finish button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;finish&quot;)' selected='true'/>
+   <accessor type='click' value='button(1, _in(div(&quot;klSHod sc-hMJCwJ&quot;)))' selected='false'/>
+   <accessor type='click' value='button(1, _in(div(&quot;Cancelfinish[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(9)' selected='false'/>
+   <accessor type='click' value='button(&quot;cRwxbe sc-jFRDNw&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"List imported successfully"' type='web' desc='verify the tost message' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;List imported successfully&quot;)))' selected='true'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;gMpMSL sc-hBgdhc&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;List imported successfully[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(460)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;gMpMSL sc-hBgdhc&quot;)))' selected='false'/>
+</dialect>
+</step>
+</testcase>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale=''/>
+<fallback useFallback='true'/>
+<step action='navigateTo' value='"https://staging.allianceconnect.com/web/alliance"' type='web' desc='Navigates to the application' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on login' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;login-btn&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;sign-in&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;https://staging.allianceconnect.com/c/portal/login?p_l_id=5867535&quot;)' selected='false'/>
+   <accessor type='click' value='link(0, _in(div(&quot;header__user-login&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(div(&quot;Sign In[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='link(&quot;Sign In&quot;)' selected='false'/>
+   <accessor type='click' value='link(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"aa000adminhq"' type='web' desc='enter username' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;inputField-customizable&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;cognito_custom_login_screenName&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;input-text-wrapper&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;Username&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"s0lut10n!"' type='web' desc='enter password' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;inputField-customizable&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;cognito_custom_login_password&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;input-text-wrapper[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;Password&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='click on hyper link' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;Sign In&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;cognito_custom_login_submit&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;signin&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;Sign In&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+   <accessor type='click' value='submit(&quot;submitButton-customizable w-100&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select the global options' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;icon-2x icon-globe pnl-icon&quot;)' selected='true'/>
+   <accessor type='click' value='span(5)' selected='false'/>
+   <accessor type='click' value='byClassName(&quot;pnl-icon icon-2x icon-globe&quot;,_leftOf(span(&quot;HQ Sandbox Admin&quot;)))' selected='false'/>
+   <accessor type='click' value='byClassName(&quot;pnl-icon icon-2x icon-globe&quot;,leftOf(span(&quot;HQ Sandbox Admin&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select the private option' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Alliance HQ SandboxPrivate&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;/group/sandbox&quot;)' selected='false'/>
+   <accessor type='click' value='link(3, _in(list(&quot;dropdown-menu mySitesDropDown show&quot;)))' selected='false'/>
+   <accessor type='click' value='link(7)' selected='false'/>
+   <accessor type='click' value='link(&quot;dropdown-item sitesNameDropdownItem[3]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"SellNetwork"' type='web' desc='verify the sell network' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;SellNetwork&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;text-truncate[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(link(&quot;dropdown-toggle nav-link text-truncate[1]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(link(&quot;SellNetwork&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(23)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;text-truncate[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='mouseOver' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='mouseOver' value='span(&quot;SellNetwork&quot;)' selected='true'/>
+   <accessor type='mouseOver' value='' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on Attribute option' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Attributes&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;https://staging.allianceconnect.com/group/sandbox/attributes&quot;)' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;layout_139&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;Attributes&quot;)))' selected='false'/>
+   <accessor type='click' value='link(14)' selected='false'/>
+   <accessor type='click' value='link(&quot;active dropdown-item&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"aa999 Sams Garage"' type='web' desc='enters organization name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;placeholder==Search Organization name or ID[0]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;aapa-dxp-input border-0 form-control ng-dirty ng-untouched ng-valid orgNavigationSearchInput&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;filterOrg&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select the garage' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='bold(&quot;aa999 Sams Garage&quot;)' selected='true'/>
+   <accessor type='click' value='bold(0, _in(span(&quot;org-label text-truncate[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='bold(0)' selected='false'/>
+   <accessor type='click' value='bold(0, _in(span(&quot;aa999 Sams Garage (0)&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select the user attribute option' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;User Attributes&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(link(&quot;ui-tabpanel-1-label&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(link(&quot;User Attributes&quot;)))' selected='false'/>
+   <accessor type='click' value='span(66)' selected='false'/>
+   <accessor type='click' value='span(&quot;ui-tabview-title[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='label(&quot;empty&quot;)' selected='true'/>
+   <accessor type='click' value='label(0, _in(div(&quot;ng-tns-c6-3 ui-corner-all ui-dropdown ui-helper-clearfix ui-state-default ui-widget&quot;)))' selected='false'/>
+   <accessor type='click' value='label(2)' selected='false'/>
+   <accessor type='click' value='label(&quot;ng-star-inserted ng-tns-c6-3 ui-corner-all ui-dropdown-label ui-dropdown-label-empty ui-inputtext ui-placeholder&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"aa999jsmith"' type='web' desc='enter the user details' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;ui-corner-all ui-dropdown-filter ui-inputtext ui-state-default ui-widget&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;ng-star-inserted ng-tns-c6-3 ui-dropdown-filter-container&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='select the  user name' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='listItem(&quot;aa999jsmith&quot;)' selected='true'/>
+   <accessor type='click' value='listItem(0, _in(list(&quot;ui-corner-all ui-dropdown-items ui-dropdown-list ui-helper-reset ui-widget ui-widget-content&quot;)))' selected='false'/>
+   <accessor type='click' value='listItem(0, _in(list(&quot;aa999jsmithaa999jsmith1&quot;)))' selected='false'/>
+   <accessor type='click' value='listItem(29)' selected='false'/>
+   <accessor type='click' value='listItem(&quot;ng-star-inserted ng-tns-c6-3 ui-corner-all ui-dropdown-item&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clear the text box field' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='italic(0, _in(span(&quot;Clear&quot;)))' selected='true'/>
+   <accessor type='click' value='italic(0, _in(span(&quot;aapa-orgs-search-close-icon&quot;)))' selected='false'/>
+   <accessor type='click' value='italic(1)' selected='false'/>
+   <accessor type='click' value='italic(&quot;icon-remove&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Contact Us"' type='web' desc='verify the contact us attribute is vsible' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='label(&quot;Contact Us[1]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='label(0, _in(div(&quot;border border-dark col padding-5[2]&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='label(18)' selected='false'/>
+   <accessor type='assertContainsText' value='label(0, _in(div(&quot;border border-dark col padding-5[2]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='";akramsaifi715@gmail.com"' type='web' desc='enter the e-mail account to be configured' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;aapa-dxp-input col-md-6 form-control ng-pristine ng-untouched ng-valid[2]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;justify-content-center margin-1 ng-star-inserted padding-5 row[7]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;Email address[USR]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(4)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Save"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;Save&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;ui-button-text ui-clickable[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;userSaveSetup&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;aapa-dxp-button btn btn-primary mr-1 ui-button ui-button-text-only ui-corner-all ui-state-default ui-widget&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(button(&quot;Save&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(86)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;ui-button-text ui-clickable[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='clicks on SAVE button' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Save&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;userSaveSetup&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;aapa-dxp-button btn btn-primary mr-1 ui-button ui-button-text-only ui-corner-all ui-state-default ui-widget&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;Save&quot;)))' selected='false'/>
+   <accessor type='click' value='span(86)' selected='false'/>
+   <accessor type='click' value='span(&quot;ui-button-text ui-clickable[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+</testcase>
